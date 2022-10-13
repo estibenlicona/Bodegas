@@ -1,0 +1,1602 @@
+[
+  {
+    "Codigo": "CT9",
+    "nom_cco": "CCO PRUEBAS TEST POST"
+  },
+  {
+    "Codigo": "CL9",
+    "nom_cco": "CCO PRUEBAS TEST POST"
+  },
+  {
+    "Codigo": "001",
+    "nom_cco": "VENTAS"
+  },
+  {
+    "Codigo": "1",
+    "nom_cco": "AD1 JUNIN"
+  },
+  {
+    "Codigo": "2",
+    "nom_cco": "AD2 ITAGUI"
+  },
+  {
+    "Codigo": "3",
+    "nom_cco": "AD3 BELLO"
+  },
+  {
+    "Codigo": "401",
+    "nom_cco": "RECURSOS HUMANOS"
+  },
+  {
+    "Codigo": "108",
+    "nom_cco": "PROMOCION"
+  },
+  {
+    "Codigo": "110",
+    "nom_cco": "COMERCIAL"
+  },
+  {
+    "Codigo": "4",
+    "nom_cco": "CALL CENTER"
+  },
+  {
+    "Codigo": "5",
+    "nom_cco": "AD4 ORIENTAL"
+  },
+  {
+    "Codigo": "6",
+    "nom_cco": "OFICINA"
+  },
+  {
+    "Codigo": "101",
+    "nom_cco": "CALZADO(BOL,MORR,CORR,BILLET."
+  },
+  {
+    "Codigo": "104",
+    "nom_cco": "ELECTRODOMESTICOS"
+  },
+  {
+    "Codigo": "105",
+    "nom_cco": "MUEBLERIA"
+  },
+  {
+    "Codigo": "106",
+    "nom_cco": "JOYERIA(RELOJERIA,PERFUMERIA)"
+  },
+  {
+    "Codigo": "107",
+    "nom_cco": "VARIOS(LLAN,MUS,FOTOG,BIC,TP)"
+  },
+  {
+    "Codigo": "109",
+    "nom_cco": "PAPELERIA"
+  },
+  {
+    "Codigo": "7",
+    "nom_cco": "SISTEMAS"
+  },
+  {
+    "Codigo": "8",
+    "nom_cco": "MEGACENTER"
+  },
+  {
+    "Codigo": "201",
+    "nom_cco": "CALL CENTER"
+  },
+  {
+    "Codigo": "002",
+    "nom_cco": "CREDITO"
+  },
+  {
+    "Codigo": "003",
+    "nom_cco": "LOGISTICA"
+  },
+  {
+    "Codigo": "004",
+    "nom_cco": "CONTABILIDAD"
+  },
+  {
+    "Codigo": "005",
+    "nom_cco": "TECNOLOGIA"
+  },
+  {
+    "Codigo": "006",
+    "nom_cco": "TALENTO HUMANO"
+  },
+  {
+    "Codigo": "007",
+    "nom_cco": "INFORMACION EMPRESARIAL"
+  },
+  {
+    "Codigo": "008",
+    "nom_cco": "PROCESOS Y MEJORAMIENTO"
+  },
+  {
+    "Codigo": "009",
+    "nom_cco": "COMPRAS"
+  },
+  {
+    "Codigo": "010",
+    "nom_cco": "COB PREJURIDICA"
+  },
+  {
+    "Codigo": "011",
+    "nom_cco": "TELEMERCADEO"
+  },
+  {
+    "Codigo": "012",
+    "nom_cco": "COB PREVENTIVA"
+  },
+  {
+    "Codigo": "013",
+    "nom_cco": "TESORERIA"
+  },
+  {
+    "Codigo": "014",
+    "nom_cco": "MERCADEO"
+  },
+  {
+    "Codigo": "015",
+    "nom_cco": "OPERACIONES  DE VENTAS"
+  },
+  {
+    "Codigo": "016",
+    "nom_cco": "GERENCIA GENERAL"
+  },
+  {
+    "Codigo": "017",
+    "nom_cco": "OTROS OFICINA"
+  },
+  {
+    "Codigo": "018",
+    "nom_cco": "SERV.CLIENTE (CARTERA)"
+  },
+  {
+    "Codigo": "019",
+    "nom_cco": "INVENTARIOS"
+  },
+  {
+    "Codigo": "020",
+    "nom_cco": "SELECCION"
+  },
+  {
+    "Codigo": "021",
+    "nom_cco": "BIENESTAR"
+  },
+  {
+    "Codigo": "022",
+    "nom_cco": "GERENCIA FINANCIERA"
+  },
+  {
+    "Codigo": "9",
+    "nom_cco": "AD4 ORIENTAL"
+  },
+  {
+    "Codigo": "023",
+    "nom_cco": "PRESUPUESTOS"
+  },
+  {
+    "Codigo": "024",
+    "nom_cco": "DIRECCION CARTERA"
+  },
+  {
+    "Codigo": "98",
+    "nom_cco": "SUPLA"
+  },
+  {
+    "Codigo": "025",
+    "nom_cco": "GERENCIA COMERCIAL"
+  },
+  {
+    "Codigo": "026",
+    "nom_cco": "GERENCIA ADMINISTRATIVA"
+  },
+  {
+    "Codigo": "028",
+    "nom_cco": "PROVISION"
+  },
+  {
+    "Codigo": "11",
+    "nom_cco": "CEDI"
+  },
+  {
+    "Codigo": "029",
+    "nom_cco": "TOMA DE DATOS"
+  },
+  {
+    "Codigo": "030",
+    "nom_cco": "LOGISTICA- RECIBO"
+  },
+  {
+    "Codigo": "031",
+    "nom_cco": "GARANTIAS"
+  },
+  {
+    "Codigo": "032",
+    "nom_cco": "GERENCIA DE OPERACIONES"
+  },
+  {
+    "Codigo": "033",
+    "nom_cco": "GERENCIA DE TENIS"
+  },
+  {
+    "Codigo": "034",
+    "nom_cco": "BODEGA ALTERNA"
+  },
+  {
+    "Codigo": "035",
+    "nom_cco": "PLANEACIÓN COMERCIAL"
+  },
+  {
+    "Codigo": "06",
+    "nom_cco": "AD5 FLORIDA"
+  },
+  {
+    "Codigo": "036",
+    "nom_cco": "AUDITORIA"
+  },
+  {
+    "Codigo": "037",
+    "nom_cco": "JUNTA DIRECTIVA"
+  },
+  {
+    "Codigo": "038",
+    "nom_cco": "TIENDA VIRTUAL"
+  },
+  {
+    "Codigo": "039",
+    "nom_cco": "DATOS EXTERNOS"
+  },
+  {
+    "Codigo": "040",
+    "nom_cco": "DATOS DIGITACION"
+  },
+  {
+    "Codigo": "041",
+    "nom_cco": "DATOS EMPRESAS"
+  },
+  {
+    "Codigo": "042",
+    "nom_cco": "SECRETARIA GENERAL"
+  },
+  {
+    "Codigo": "97",
+    "nom_cco": "BODEGA FLORIDA EXTERNA"
+  },
+  {
+    "Codigo": "21",
+    "nom_cco": "AS1 SAN NICOLAS"
+  },
+  {
+    "Codigo": "043",
+    "nom_cco": "PROY FIANZA"
+  },
+  {
+    "Codigo": "044",
+    "nom_cco": "PROY INVENTARIO TALLAS"
+  },
+  {
+    "Codigo": "045",
+    "nom_cco": "PROY CULTURA DEL SERVICIO"
+  },
+  {
+    "Codigo": "046",
+    "nom_cco": "INFRAESTRUCTURA"
+  },
+  {
+    "Codigo": "047",
+    "nom_cco": "DIRECCIÓN DE PROY (DDP)"
+  },
+  {
+    "Codigo": "22",
+    "nom_cco": "AS2 MAYORCA"
+  },
+  {
+    "Codigo": "027",
+    "nom_cco": "INAUGURACION TIENDA"
+  },
+  {
+    "Codigo": "048",
+    "nom_cco": "PROY CONOCIMIENTO DEL CLIENTE"
+  },
+  {
+    "Codigo": "049",
+    "nom_cco": "PROY POTENCIALIZAR LA VENTA DE CLIENTES"
+  },
+  {
+    "Codigo": "050",
+    "nom_cco": "PROY TECNOLOGIA"
+  },
+  {
+    "Codigo": "23",
+    "nom_cco": "AS3 SANDIEGO"
+  },
+  {
+    "Codigo": "24",
+    "nom_cco": "AS4 UNICENTRO"
+  },
+  {
+    "Codigo": "051",
+    "nom_cco": "PROY FIDELIZACION CLIENTES"
+  },
+  {
+    "Codigo": "052",
+    "nom_cco": "PROY TRANSICION ESTRUCTURA DE GERENCIAS"
+  },
+  {
+    "Codigo": "055",
+    "nom_cco": "ASAMBLEA"
+  },
+  {
+    "Codigo": "056",
+    "nom_cco": "PROYECTOS PENDIENTES"
+  },
+  {
+    "Codigo": "057",
+    "nom_cco": "NOMINA"
+  },
+  {
+    "Codigo": "25",
+    "nom_cco": "AS5 MOLINOS"
+  },
+  {
+    "Codigo": "058",
+    "nom_cco": "PROY CREDITO ONLINE"
+  },
+  {
+    "Codigo": "059",
+    "nom_cco": "PROY GESTION INVENTARIOS"
+  },
+  {
+    "Codigo": "060",
+    "nom_cco": "PROY PVO"
+  },
+  {
+    "Codigo": "061",
+    "nom_cco": "PROY REESTRUCTURACION DE PROCESOS"
+  },
+  {
+    "Codigo": "062",
+    "nom_cco": "PROY PLAN DE EXPANSION"
+  },
+  {
+    "Codigo": "063",
+    "nom_cco": "PROY MEJORAMIENTO GA"
+  },
+  {
+    "Codigo": "26",
+    "nom_cco": "AS6 SANTAFE"
+  },
+  {
+    "Codigo": "10",
+    "nom_cco": "AD6 LA CENTRAL"
+  },
+  {
+    "Codigo": "27",
+    "nom_cco": "AS7 PUERTA DEL NORTE"
+  },
+  {
+    "Codigo": "066",
+    "nom_cco": "PROY MARKETING DIGITAL"
+  },
+  {
+    "Codigo": "A19",
+    "nom_cco": "VARIEDADES DAMARIS"
+  },
+  {
+    "Codigo": "067",
+    "nom_cco": "PROY ETH"
+  },
+  {
+    "Codigo": "068",
+    "nom_cco": "PROY MANUAL GOBERNABILIDAD"
+  },
+  {
+    "Codigo": "C01",
+    "nom_cco": "CALIDAD VISUAL MOLINOS"
+  },
+  {
+    "Codigo": "069",
+    "nom_cco": "ADMON DCTOS CREDITO"
+  },
+  {
+    "Codigo": "111",
+    "nom_cco": "PREOPERATIVOS"
+  },
+  {
+    "Codigo": "C02",
+    "nom_cco": "OPTICA ANDINA JUNIN"
+  },
+  {
+    "Codigo": "C04",
+    "nom_cco": "OPTICA BUENA VISTA"
+  },
+  {
+    "Codigo": "28",
+    "nom_cco": "AS8 PREMIUM PLAZA"
+  },
+  {
+    "Codigo": "29",
+    "nom_cco": "AS9 ARKADIA"
+  },
+  {
+    "Codigo": "070",
+    "nom_cco": "COBRANZA ALIADOS"
+  },
+  {
+    "Codigo": "31",
+    "nom_cco": "AS11 COSMOCENTRO"
+  },
+  {
+    "Codigo": "C23",
+    "nom_cco": "GOODBABY.CO"
+  },
+  {
+    "Codigo": "C25",
+    "nom_cco": "CASA DEL MUEBLE LA ESTRELLA"
+  },
+  {
+    "Codigo": "C26",
+    "nom_cco": "CASA DEL MUEBLE SAN A.DE PRADO"
+  },
+  {
+    "Codigo": "C27",
+    "nom_cco": "CASA DEL MUEBLE REMEDIOS"
+  },
+  {
+    "Codigo": "C34",
+    "nom_cco": "LENCERIA EN SUEÑOS"
+  },
+  {
+    "Codigo": "C39",
+    "nom_cco": "TERABYTE TECNOLOGY"
+  },
+  {
+    "Codigo": "C35",
+    "nom_cco": "CO PUNTO 20"
+  },
+  {
+    "Codigo": "071",
+    "nom_cco": "SERVICIO CREDITO"
+  },
+  {
+    "Codigo": "053",
+    "nom_cco": "PROY DEE"
+  },
+  {
+    "Codigo": "054",
+    "nom_cco": "PROY VENTA SEGUROS"
+  },
+  {
+    "Codigo": "064",
+    "nom_cco": "PROY MEJORAMIENTO GT"
+  },
+  {
+    "Codigo": "065",
+    "nom_cco": "PROY MEJORAMIENTO GC"
+  },
+  {
+    "Codigo": "S10",
+    "nom_cco": "EXEQUIAS"
+  },
+  {
+    "Codigo": "C03",
+    "nom_cco": "OPTICA ANDINA SAN DIEGO"
+  },
+  {
+    "Codigo": "C06",
+    "nom_cco": "ODONTO GRUPO ODONTOLOGICO"
+  },
+  {
+    "Codigo": "C07",
+    "nom_cco": "PAÑALERA MABABY"
+  },
+  {
+    "Codigo": "C08",
+    "nom_cco": "PAÑALERA DULCE BEBE"
+  },
+  {
+    "Codigo": "30",
+    "nom_cco": "AS10 CHIPICHAPE"
+  },
+  {
+    "Codigo": "C22",
+    "nom_cco": "FAIT HOME"
+  },
+  {
+    "Codigo": "C10",
+    "nom_cco": "ODONTOSPECIAL"
+  },
+  {
+    "Codigo": "C11",
+    "nom_cco": "OPTICA FULL VISION"
+  },
+  {
+    "Codigo": "C59",
+    "nom_cco": "CASA FERRETERA APARTADO"
+  },
+  {
+    "Codigo": "C21",
+    "nom_cco": "OPTICA ANDINA SUCRE"
+  },
+  {
+    "Codigo": "C51",
+    "nom_cco": "CASA FERRETERA CENTRO"
+  },
+  {
+    "Codigo": "C52",
+    "nom_cco": "CASA FERRETERA PALACE"
+  },
+  {
+    "Codigo": "C53",
+    "nom_cco": "CASA FERRETERA AMADOR"
+  },
+  {
+    "Codigo": "C54",
+    "nom_cco": "CASA FERRETERA LA AMERICA"
+  },
+  {
+    "Codigo": "C55",
+    "nom_cco": "CASA FERRETERA ITAGUI"
+  },
+  {
+    "Codigo": "C56",
+    "nom_cco": "CASA FERRETERA ENVIGADO"
+  },
+  {
+    "Codigo": "C57",
+    "nom_cco": "CASA FERRETERA RIONEGRO"
+  },
+  {
+    "Codigo": "C58",
+    "nom_cco": "CASA FERRETERA LA CEJA"
+  },
+  {
+    "Codigo": "C13",
+    "nom_cco": "JUBILO SAN JUAN"
+  },
+  {
+    "Codigo": "C15",
+    "nom_cco": "JUBILO BELEN"
+  },
+  {
+    "Codigo": "C16",
+    "nom_cco": "JUBILO MAYORCA"
+  },
+  {
+    "Codigo": "C17",
+    "nom_cco": "PAÑALERA CANDY BABY"
+  },
+  {
+    "Codigo": "C18",
+    "nom_cco": "GO-RIGO-GO ARKADIA"
+  },
+  {
+    "Codigo": "C20",
+    "nom_cco": "CE ODONTOLOGICO"
+  },
+  {
+    "Codigo": "C36",
+    "nom_cco": "CO UNION VISUAL"
+  },
+  {
+    "Codigo": "C41",
+    "nom_cco": "ANFOMOTOS"
+  },
+  {
+    "Codigo": "C42",
+    "nom_cco": "AGUA BENDITA VIVA ENVIGADO"
+  },
+  {
+    "Codigo": "C43",
+    "nom_cco": "AGUA BENDITA UNICO VILLAVO"
+  },
+  {
+    "Codigo": "C44",
+    "nom_cco": "AGUA BENDITA PLAZA C BOGOTA"
+  },
+  {
+    "Codigo": "C45",
+    "nom_cco": "OPTICA NEW LASER"
+  },
+  {
+    "Codigo": "C48",
+    "nom_cco": "NATURAL DENT ITAGUI"
+  },
+  {
+    "Codigo": "C46",
+    "nom_cco": "AGUA BENDITA C.C. MONTERREY"
+  },
+  {
+    "Codigo": "C60",
+    "nom_cco": "ORAL FLEX PUNTO CLAVE"
+  },
+  {
+    "Codigo": "C67",
+    "nom_cco": "ADRIANA ARANGO LA 70"
+  },
+  {
+    "Codigo": "C68",
+    "nom_cco": "ADRIANA ARANGO LA 70 BASAR"
+  },
+  {
+    "Codigo": "C69",
+    "nom_cco": "ADRIANA ARANGO ENVIGADO"
+  },
+  {
+    "Codigo": "C71",
+    "nom_cco": "CLINICA MUNDO SONRISAS"
+  },
+  {
+    "Codigo": "C72",
+    "nom_cco": "CENTRO ODONTOLOGICO BUCAL"
+  },
+  {
+    "Codigo": "990",
+    "nom_cco": "COBRO TECNOLOGIA"
+  },
+  {
+    "Codigo": "991",
+    "nom_cco": "COBRO TALENTO HUMANO"
+  },
+  {
+    "Codigo": "C09",
+    "nom_cco": "CENTRO VISUAL SANTA ANA"
+  },
+  {
+    "Codigo": "C14",
+    "nom_cco": "JUBILO JUNIN"
+  },
+  {
+    "Codigo": "C19",
+    "nom_cco": "GO-RIGO-GO GRAN ESTACION"
+  },
+  {
+    "Codigo": "C24",
+    "nom_cco": "CASA DEL MUEBLE CALDAS"
+  },
+  {
+    "Codigo": "C33",
+    "nom_cco": "TURBO ACCESORIOS CENTRO"
+  },
+  {
+    "Codigo": "C47",
+    "nom_cco": "NATURAL DENT ENVIGADO"
+  },
+  {
+    "Codigo": "C49",
+    "nom_cco": "OPTICA Y VISION NC"
+  },
+  {
+    "Codigo": "C73",
+    "nom_cco": "QUALITY"
+  },
+  {
+    "Codigo": "C76",
+    "nom_cco": "OPTICA SANTA LUCIA POBLADO"
+  },
+  {
+    "Codigo": "C75",
+    "nom_cco": "CLINICA OFTALMOLOGÍA SAN DIEGO"
+  },
+  {
+    "Codigo": "14",
+    "nom_cco": "MERCANCIA EN CONSIGNACION"
+  },
+  {
+    "Codigo": "C77",
+    "nom_cco": "ZONA ROSA"
+  },
+  {
+    "Codigo": "073",
+    "nom_cco": "SERV.CLIENTE (SAC)"
+  },
+  {
+    "Codigo": "C78",
+    "nom_cco": "OPTICA SANTA LUCIA FLORIDA"
+  },
+  {
+    "Codigo": "074",
+    "nom_cco": "BIOSEGURIDAD"
+  },
+  {
+    "Codigo": "C79",
+    "nom_cco": "TURBO ACCESORIOS LA BAYADERA"
+  },
+  {
+    "Codigo": "C80",
+    "nom_cco": "OPTICA SANTA LUCIA SUCRE"
+  },
+  {
+    "Codigo": "C81",
+    "nom_cco": "OPTICA SANTA LUCIA PUERTA DEL NORTE"
+  },
+  {
+    "Codigo": "C82",
+    "nom_cco": "COCOA JEANS ITAGUI"
+  },
+  {
+    "Codigo": "C83",
+    "nom_cco": "TODOSUPER TERMINAL DEL NORTE"
+  },
+  {
+    "Codigo": "C84",
+    "nom_cco": "TODOSUPER SAN DIEGO"
+  },
+  {
+    "Codigo": "C85",
+    "nom_cco": "TODOSUPER CALDAS"
+  },
+  {
+    "Codigo": "C86",
+    "nom_cco": "MUEBLES SAN CRISTIBAL 1"
+  },
+  {
+    "Codigo": "C87",
+    "nom_cco": "MUEBLES SAN CRISTOBAL 2"
+  },
+  {
+    "Codigo": "C88",
+    "nom_cco": "ZONA DIGITAL DEL SUR"
+  },
+  {
+    "Codigo": "C89",
+    "nom_cco": "OPTICASA ITAGUI"
+  },
+  {
+    "Codigo": "C90",
+    "nom_cco": "XCESO BELLO"
+  },
+  {
+    "Codigo": "C92",
+    "nom_cco": "XCESO CARABOBO"
+  },
+  {
+    "Codigo": "C93",
+    "nom_cco": "OPTICA NACIONAL"
+  },
+  {
+    "Codigo": "C94",
+    "nom_cco": "CASTILLITOS SAN DIEGO"
+  },
+  {
+    "Codigo": "C95",
+    "nom_cco": "CASTILLITOS MAYORCA"
+  },
+  {
+    "Codigo": "51",
+    "nom_cco": "MA1 RIONEGRO"
+  },
+  {
+    "Codigo": "A09",
+    "nom_cco": "XCESO OUTLET"
+  },
+  {
+    "Codigo": "A08",
+    "nom_cco": "FIARA STORE LA CENTRAL"
+  },
+  {
+    "Codigo": "A10",
+    "nom_cco": "DIGITAL SOLUTIONS"
+  },
+  {
+    "Codigo": "A11",
+    "nom_cco": "RANGER SAN JOAQUÍN"
+  },
+  {
+    "Codigo": "A12",
+    "nom_cco": "SÚPER ÓPTICA P. NORTE"
+  },
+  {
+    "Codigo": "A13",
+    "nom_cco": "TODOSUPER BELLO"
+  },
+  {
+    "Codigo": "52",
+    "nom_cco": "MA2 MANRIQUE"
+  },
+  {
+    "Codigo": "53",
+    "nom_cco": "MA3 CALDAS"
+  },
+  {
+    "Codigo": "A14",
+    "nom_cco": "RANGER LA 65"
+  },
+  {
+    "Codigo": "A21",
+    "nom_cco": "OPTICA METRO VISUAL 1"
+  },
+  {
+    "Codigo": "C12",
+    "nom_cco": "MOTOR SALE GUARNE"
+  },
+  {
+    "Codigo": "202",
+    "nom_cco": "CANALES DE RECAUDO"
+  },
+  {
+    "Codigo": "C91",
+    "nom_cco": "XCESO SINGAPUR"
+  },
+  {
+    "Codigo": "A01",
+    "nom_cco": "MUEBLES SAN CRISTOBAL 3"
+  },
+  {
+    "Codigo": "A04",
+    "nom_cco": "POLACO CASCOS Y ACCESORIOS"
+  },
+  {
+    "Codigo": "A05",
+    "nom_cco": "SÚPER ÓPTICA COLOMBIANA"
+  },
+  {
+    "Codigo": "A06",
+    "nom_cco": "SÚPER ÓPTICA FURATENA"
+  },
+  {
+    "Codigo": "A07",
+    "nom_cco": "SÚPER ÓPTICA JUNIN"
+  },
+  {
+    "Codigo": "A18",
+    "nom_cco": "PAISA URBAN"
+  },
+  {
+    "Codigo": "A24",
+    "nom_cco": "PUNTO MOVIL 2"
+  },
+  {
+    "Codigo": "A29",
+    "nom_cco": "MEDELLÍN EN BICI LA 70_2"
+  },
+  {
+    "Codigo": "A71",
+    "nom_cco": "OPTICA STA LUCIA AVES MARIA"
+  },
+  {
+    "Codigo": "A72",
+    "nom_cco": "OPTICA STA LUCIA RIO NEGRO 1"
+  },
+  {
+    "Codigo": "A73",
+    "nom_cco": "OPTICA STA LUCIA SAN NICOLAS"
+  },
+  {
+    "Codigo": "A74",
+    "nom_cco": "OPTICA STA LUCIA PLAZA DEL RIO"
+  },
+  {
+    "Codigo": "A79",
+    "nom_cco": "HOGAR & TECNOLOGIA"
+  },
+  {
+    "Codigo": "A67",
+    "nom_cco": "COCOA JEANS LA 30"
+  },
+  {
+    "Codigo": "A80",
+    "nom_cco": "COCOA JEANS GRAN PLAZA"
+  },
+  {
+    "Codigo": "A81",
+    "nom_cco": "COCOA JEANS METROPOLIS"
+  },
+  {
+    "Codigo": "A82",
+    "nom_cco": "GALERIA SAM ANGEL"
+  },
+  {
+    "Codigo": "A83",
+    "nom_cco": "TURBO ACCESORIOS ARANJUEZ"
+  },
+  {
+    "Codigo": "A92",
+    "nom_cco": "VELASQUEZ BIKE"
+  },
+  {
+    "Codigo": "A93",
+    "nom_cco": "DISTRIFLEX"
+  },
+  {
+    "Codigo": "A94",
+    "nom_cco": "Optica Sta Lucia Fabricato"
+  },
+  {
+    "Codigo": "59",
+    "nom_cco": "MA8 MI AGAVAL 8"
+  },
+  {
+    "Codigo": "60",
+    "nom_cco": "MA9 MI AGAVAL 9"
+  },
+  {
+    "Codigo": "61",
+    "nom_cco": "MA10 MI AGAVAL 10"
+  },
+  {
+    "Codigo": "B01",
+    "nom_cco": "SERVIMUEBLES"
+  },
+  {
+    "Codigo": "B02",
+    "nom_cco": "DISTRIMUEBLES"
+  },
+  {
+    "Codigo": "B03",
+    "nom_cco": "CONFORT NIGHT"
+  },
+  {
+    "Codigo": "B04",
+    "nom_cco": "AV SPORTS"
+  },
+  {
+    "Codigo": "B07",
+    "nom_cco": "FERNANDEZ Y CIA PICHINCHA 3"
+  },
+  {
+    "Codigo": "B05",
+    "nom_cco": "OPTICA ALTAMAR SUCRE"
+  },
+  {
+    "Codigo": "B06",
+    "nom_cco": "OPTICA ALTAMAR BOSQUE PLAZA"
+  },
+  {
+    "Codigo": "B08",
+    "nom_cco": "MUNDO AMERICANO"
+  },
+  {
+    "Codigo": "B12",
+    "nom_cco": "Doctor Cell Plus"
+  },
+  {
+    "Codigo": "B13",
+    "nom_cco": "Xiaomi Monterrey"
+  },
+  {
+    "Codigo": "B14",
+    "nom_cco": "El Punto de la Tablet 3"
+  },
+  {
+    "Codigo": "B15",
+    "nom_cco": "El Punto de la Tablet 4"
+  },
+  {
+    "Codigo": "B16",
+    "nom_cco": "Doctor Cell Usados"
+  },
+  {
+    "Codigo": "B17",
+    "nom_cco": "La Casa del Play"
+  },
+  {
+    "Codigo": "B18",
+    "nom_cco": "Punto Tablet"
+  },
+  {
+    "Codigo": "B19",
+    "nom_cco": "Doctor Cell Plus 2"
+  },
+  {
+    "Codigo": "C28",
+    "nom_cco": "DIGITAL STORE MEDELLIN"
+  },
+  {
+    "Codigo": "C29",
+    "nom_cco": "TURBO ACCESORIOS ITAGUI"
+  },
+  {
+    "Codigo": "C30",
+    "nom_cco": "TURBO ACCESORIOS LA AMERICA"
+  },
+  {
+    "Codigo": "C31",
+    "nom_cco": "TURBO ACCESORIOS BARRIO ANTIOQUIA"
+  },
+  {
+    "Codigo": "C32",
+    "nom_cco": "TURBO ACCESORIOS BELEN"
+  },
+  {
+    "Codigo": "C38",
+    "nom_cco": "PIXEL TECHNOLOGY"
+  },
+  {
+    "Codigo": "C37",
+    "nom_cco": "ACRYLAB C.O"
+  },
+  {
+    "Codigo": "C40",
+    "nom_cco": "PUNTO MOVIL"
+  },
+  {
+    "Codigo": "32",
+    "nom_cco": "AS12 STORE 12"
+  },
+  {
+    "Codigo": "C96",
+    "nom_cco": "OPTICA MADRE LAURA"
+  },
+  {
+    "Codigo": "C97",
+    "nom_cco": "OPTICA SABANETA"
+  },
+  {
+    "Codigo": "C98",
+    "nom_cco": "OPTICA DR ROJAS LA ESTRELLA"
+  },
+  {
+    "Codigo": "C99",
+    "nom_cco": "OPTICA STA LUCIA ITAGUI"
+  },
+  {
+    "Codigo": "54",
+    "nom_cco": "MA3 CALDAS"
+  },
+  {
+    "Codigo": "B10",
+    "nom_cco": "GALERIA ISABEL"
+  },
+  {
+    "Codigo": "B21",
+    "nom_cco": "ÓPTICA ISABEL 2"
+  },
+  {
+    "Codigo": "B22",
+    "nom_cco": "TURBO ACCESORIOS GUAYABAL"
+  },
+  {
+    "Codigo": "B23",
+    "nom_cco": "BOUTIQUE SHADAY"
+  },
+  {
+    "Codigo": "B24",
+    "nom_cco": "CASCO FACIL ENVIGADO"
+  },
+  {
+    "Codigo": "B25",
+    "nom_cco": "DIGITAL MAC 1"
+  },
+  {
+    "Codigo": "B26",
+    "nom_cco": "DIGITAL MAC 2"
+  },
+  {
+    "Codigo": "B20",
+    "nom_cco": "FORMA FIT"
+  },
+  {
+    "Codigo": "B28",
+    "nom_cco": "BABY KIOSK"
+  },
+  {
+    "Codigo": "B29",
+    "nom_cco": "MULTI CASCO"
+  },
+  {
+    "Codigo": "B27",
+    "nom_cco": "COMPU TOUCH Y ACCESORIOS"
+  },
+  {
+    "Codigo": "B36",
+    "nom_cco": "CICLO URBAN"
+  },
+  {
+    "Codigo": "B40",
+    "nom_cco": "FABRICAS UNIDAS CC UNICENTRO"
+  },
+  {
+    "Codigo": "B41",
+    "nom_cco": "FABRICAS UNIDAS CC SANTAFE"
+  },
+  {
+    "Codigo": "B48",
+    "nom_cco": "GALERIA TRAVESURAS"
+  },
+  {
+    "Codigo": "B49",
+    "nom_cco": "LENCERIA SANTANDER"
+  },
+  {
+    "Codigo": "B50",
+    "nom_cco": "MUEBLERIA NOREÑA"
+  },
+  {
+    "Codigo": "B51",
+    "nom_cco": "OPTICA SUVISION TR2"
+  },
+  {
+    "Codigo": "B52",
+    "nom_cco": "ARTE Y TONO"
+  },
+  {
+    "Codigo": "B59",
+    "nom_cco": "FITNESSMANIA CARABOBO"
+  },
+  {
+    "Codigo": "B60",
+    "nom_cco": "FITNESSMANIA JUNIN"
+  },
+  {
+    "Codigo": "CP1",
+    "nom_cco": "CENTRO COSTO PRUEBA 01"
+  },
+  {
+    "Codigo": "CP2",
+    "nom_cco": "CENTRO COSTO PRUEBA 02"
+  },
+  {
+    "Codigo": "CP3",
+    "nom_cco": "CENTRO COSTO PRUEBA 03"
+  },
+  {
+    "Codigo": "CP4",
+    "nom_cco": "CENTRO COSTO PRUEBA 04"
+  },
+  {
+    "Codigo": "CP5",
+    "nom_cco": "CENTRO COSTO PRUEBA 05"
+  },
+  {
+    "Codigo": "CP6",
+    "nom_cco": "CENTRO COSTO PRUEBA 06"
+  },
+  {
+    "Codigo": "CP7",
+    "nom_cco": "CENTRO COSTO PRUEBA 07"
+  },
+  {
+    "Codigo": "CP8",
+    "nom_cco": "CENTRO COSTO PRUEBA 08"
+  },
+  {
+    "Codigo": "CP9",
+    "nom_cco": "CENTRO COSTO PRUEBA 09"
+  },
+  {
+    "Codigo": "C50",
+    "nom_cco": "CASA BLANCA ITAGUI"
+  },
+  {
+    "Codigo": "C61",
+    "nom_cco": "BEFIT SANTAFE"
+  },
+  {
+    "Codigo": "C62",
+    "nom_cco": "BEFIT VIVA ENVIGADO"
+  },
+  {
+    "Codigo": "C63",
+    "nom_cco": "BEFIT MAYORCA"
+  },
+  {
+    "Codigo": "C64",
+    "nom_cco": "BEFIT SAN NICOLAS"
+  },
+  {
+    "Codigo": "C65",
+    "nom_cco": "BEFIT LA 65"
+  },
+  {
+    "Codigo": "C66",
+    "nom_cco": "BEFIT CARIBE"
+  },
+  {
+    "Codigo": "C70",
+    "nom_cco": "ORAL FLEX CAMINO REAL"
+  },
+  {
+    "Codigo": "A46",
+    "nom_cco": "OPTICA SANTA LUCIA PUNTO CLAVE"
+  },
+  {
+    "Codigo": "A47",
+    "nom_cco": "OPTICA SANTA LUCIA POBLADO"
+  },
+  {
+    "Codigo": "A48",
+    "nom_cco": "OPTICA SANTA LUCIA P.C. TESORO"
+  },
+  {
+    "Codigo": "A49",
+    "nom_cco": "OPTICA SANTA LUCIA ARRAYANES"
+  },
+  {
+    "Codigo": "A50",
+    "nom_cco": "OPTICA SANTA LUCIA ENVIGADO N° 1"
+  },
+  {
+    "Codigo": "A51",
+    "nom_cco": "OPTICA SANTA LUCIA ENVIGADO N° 2"
+  },
+  {
+    "Codigo": "A52",
+    "nom_cco": "OPTICA SANTA LUCIA VIVA ENVIGADO"
+  },
+  {
+    "Codigo": "A53",
+    "nom_cco": "OPTICA SANTA LUCIA MAYORCA 2"
+  },
+  {
+    "Codigo": "A54",
+    "nom_cco": "OPTICA SANTA LUCIA SANTA FE"
+  },
+  {
+    "Codigo": "A55",
+    "nom_cco": "OPTICA SANTA LUCIA MAYORCA 1"
+  },
+  {
+    "Codigo": "57",
+    "nom_cco": "MA6 GIRARDOTA"
+  },
+  {
+    "Codigo": "B35",
+    "nom_cco": "PUNTO TABLE DIGITAL"
+  },
+  {
+    "Codigo": "B38",
+    "nom_cco": "FABRICAS UNIDAS ITAGÜI"
+  },
+  {
+    "Codigo": "A02",
+    "nom_cco": "ECOMUEBLES"
+  },
+  {
+    "Codigo": "A85",
+    "nom_cco": "CALIDAD VISUAL FABRICATO"
+  },
+  {
+    "Codigo": "A84",
+    "nom_cco": "OPTICA STA LUCIA RIONGERO 2"
+  },
+  {
+    "Codigo": "A90",
+    "nom_cco": "ROMA STORE"
+  },
+  {
+    "Codigo": "B53",
+    "nom_cco": "GALERIA CASA BLANCA RIONEGRO"
+  },
+  {
+    "Codigo": "B54",
+    "nom_cco": "GALERIA CASA BLANCA MARINILLA"
+  },
+  {
+    "Codigo": "A03",
+    "nom_cco": "OPTICA SAN FRANCISCO"
+  },
+  {
+    "Codigo": "A15",
+    "nom_cco": "RANGER AYACUCHO"
+  },
+  {
+    "Codigo": "A16",
+    "nom_cco": "RANGER BOYACÁ"
+  },
+  {
+    "Codigo": "A17",
+    "nom_cco": "RANGER CAMINO REAL"
+  },
+  {
+    "Codigo": "A20",
+    "nom_cco": "TERRITORIO VISUAL"
+  },
+  {
+    "Codigo": "A22",
+    "nom_cco": "OPTICA METRO VISUAL 2"
+  },
+  {
+    "Codigo": "A23",
+    "nom_cco": "TOCO MADERA"
+  },
+  {
+    "Codigo": "A25",
+    "nom_cco": "PUNTO MOVIL 3"
+  },
+  {
+    "Codigo": "A26",
+    "nom_cco": "RANGER TIENDA HOGAR"
+  },
+  {
+    "Codigo": "A30",
+    "nom_cco": "MEDELLIN EN BICI LA 33"
+  },
+  {
+    "Codigo": "A31",
+    "nom_cco": "MEDELLIN EN BICI POBLADO"
+  },
+  {
+    "Codigo": "A28",
+    "nom_cco": "MEDELLÍN EN BICI LA 70_1"
+  },
+  {
+    "Codigo": "A27",
+    "nom_cco": "EXHIBICIONES CAMILA"
+  },
+  {
+    "Codigo": "A37",
+    "nom_cco": "OPTICA STA LUCIA MARACAIBO N° 1"
+  },
+  {
+    "Codigo": "A38",
+    "nom_cco": "OPTICA STA LUCIA LA CENTRAL"
+  },
+  {
+    "Codigo": "A39",
+    "nom_cco": "OPTICA STA LUCIA SURAMERICANA"
+  },
+  {
+    "Codigo": "A40",
+    "nom_cco": "OPTICA STA LUCIA MOLINOS"
+  },
+  {
+    "Codigo": "A41",
+    "nom_cco": "OPTICA STA LUCIA ARKADIA"
+  },
+  {
+    "Codigo": "A42",
+    "nom_cco": "OPTICA STA LUCIA MONTERREY"
+  },
+  {
+    "Codigo": "A43",
+    "nom_cco": "OPTICA STA LUCIA PREMIUN PLAZA"
+  },
+  {
+    "Codigo": "A44",
+    "nom_cco": "OPTICA STA LUCIA SAN DIEGO"
+  },
+  {
+    "Codigo": "A45",
+    "nom_cco": "OPTICA STA LUCIA PABLO TOBÓN"
+  },
+  {
+    "Codigo": "A57",
+    "nom_cco": "FERNANDEZ Y CIA GUAYABAL"
+  },
+  {
+    "Codigo": "A58",
+    "nom_cco": "FERNANDEZ Y CIA INDUSTRIALES"
+  },
+  {
+    "Codigo": "A59",
+    "nom_cco": "FERNANDEZ Y CIA PICHINCHA"
+  },
+  {
+    "Codigo": "A60",
+    "nom_cco": "OPTICA ISABEL"
+  },
+  {
+    "Codigo": "A61",
+    "nom_cco": "OPTICA VEO MAX 1"
+  },
+  {
+    "Codigo": "A62",
+    "nom_cco": "OPTICA VEO MAX 2"
+  },
+  {
+    "Codigo": "A63",
+    "nom_cco": "OPTICA VEO MAX 3"
+  },
+  {
+    "Codigo": "A64",
+    "nom_cco": "OPTICA VEO VEO"
+  },
+  {
+    "Codigo": "56",
+    "nom_cco": "MA5 SAN JAVIER"
+  },
+  {
+    "Codigo": "A65",
+    "nom_cco": "CONTACTO VISUAL GROUP"
+  },
+  {
+    "Codigo": "A69",
+    "nom_cco": "GALERIA CASA BLANCA 1"
+  },
+  {
+    "Codigo": "A70",
+    "nom_cco": "GALERIA CASA BLANCA 2"
+  },
+  {
+    "Codigo": "A76",
+    "nom_cco": "GALERIA JIREH"
+  },
+  {
+    "Codigo": "A75",
+    "nom_cco": "OPTICA STA LUCIA OVIEDO"
+  },
+  {
+    "Codigo": "A77",
+    "nom_cco": "AUTOLLANTAS NUTIBARA SAN DIEGO"
+  },
+  {
+    "Codigo": "A78",
+    "nom_cco": "AUTOLLANTAS NUTIBARA AVENIDA 33"
+  },
+  {
+    "Codigo": "A86",
+    "nom_cco": "RIDER HOUSE"
+  },
+  {
+    "Codigo": "A87",
+    "nom_cco": "DIGITAL STORE MEDELLIN 2"
+  },
+  {
+    "Codigo": "A88",
+    "nom_cco": "OPTICA SANTA LUCIA BELLO CENTRO"
+  },
+  {
+    "Codigo": "A89",
+    "nom_cco": "COLCHONES JUBILO SAN JUAN 2"
+  },
+  {
+    "Codigo": "A91",
+    "nom_cco": "CASCO FACIL"
+  },
+  {
+    "Codigo": "A96",
+    "nom_cco": "ALMACEN CREDITOS JTF"
+  },
+  {
+    "Codigo": "A32",
+    "nom_cco": "KSCOS INDUSTRY 1"
+  },
+  {
+    "Codigo": "A33",
+    "nom_cco": "KSCOS INDUSTRY 2"
+  },
+  {
+    "Codigo": "A34",
+    "nom_cco": "MODULARTESS"
+  },
+  {
+    "Codigo": "A35",
+    "nom_cco": "OPTICALIA EXPRES"
+  },
+  {
+    "Codigo": "A36",
+    "nom_cco": "OPTICA STA LUCIA AV ORIENTAL"
+  },
+  {
+    "Codigo": "55",
+    "nom_cco": "MA4 CASTILLA"
+  },
+  {
+    "Codigo": "A66",
+    "nom_cco": "COCOA JEANS MOLINOS"
+  },
+  {
+    "Codigo": "A68",
+    "nom_cco": "COCOA JEANS SANTAFE"
+  },
+  {
+    "Codigo": "58",
+    "nom_cco": "MA7 SAN ANTONIO DE PRADO"
+  },
+  {
+    "Codigo": "A97",
+    "nom_cco": "VyV MUEBLECITOS"
+  },
+  {
+    "Codigo": "A95",
+    "nom_cco": "COLCHONES KMALÚ"
+  },
+  {
+    "Codigo": "A98",
+    "nom_cco": "FABRICACIONES FRANCO MANRIQUE"
+  },
+  {
+    "Codigo": "A99",
+    "nom_cco": "FABRICACIONES FRANCO PEDREGAL"
+  },
+  {
+    "Codigo": "B09",
+    "nom_cco": "DORMOBELO"
+  },
+  {
+    "Codigo": "B11",
+    "nom_cco": "MOTO ACCESORIOS JT"
+  },
+  {
+    "Codigo": "B30",
+    "nom_cco": "DR. MOVIL + PLAY"
+  },
+  {
+    "Codigo": "B31",
+    "nom_cco": "DOCTOR MAC"
+  },
+  {
+    "Codigo": "B32",
+    "nom_cco": "DOCTOR MOVIL MAS"
+  },
+  {
+    "Codigo": "B33",
+    "nom_cco": "USADOS DR. MAC"
+  },
+  {
+    "Codigo": "B34",
+    "nom_cco": "USADOS DOCTOR MOVIL"
+  },
+  {
+    "Codigo": "B37",
+    "nom_cco": "MOTO SITE"
+  },
+  {
+    "Codigo": "B39",
+    "nom_cco": "FABRICAS UNIDAS BELLO"
+  },
+  {
+    "Codigo": "B42",
+    "nom_cco": "WE MAC 1"
+  },
+  {
+    "Codigo": "B43",
+    "nom_cco": "WE MAC 2"
+  },
+  {
+    "Codigo": "B44",
+    "nom_cco": "IN TECHNOLOGY"
+  },
+  {
+    "Codigo": "B45",
+    "nom_cco": "GAMERS COLOMBIA 1"
+  },
+  {
+    "Codigo": "B46",
+    "nom_cco": "GAMERS COLOMBIA 2"
+  },
+  {
+    "Codigo": "B47",
+    "nom_cco": "OPTICA STA LUCIA CC URABÁ"
+  },
+  {
+    "Codigo": "B55",
+    "nom_cco": "LENTES ECONOMICOS"
+  },
+  {
+    "Codigo": "B56",
+    "nom_cco": "LENTES ECONOMICOS PITALITO"
+  },
+  {
+    "Codigo": "B57",
+    "nom_cco": "LA GAFERIA"
+  },
+  {
+    "Codigo": "B58",
+    "nom_cco": "MUEBLERIA COMFORT"
+  },
+  {
+    "Codigo": "CL1",
+    "nom_cco": "CENTRO COSTO LINA PRUEBA 01"
+  },
+  {
+    "Codigo": "CL2",
+    "nom_cco": "CENTRO COSTO LINA PRUEBA 02"
+  },
+  {
+    "Codigo": "CL3",
+    "nom_cco": "CENTRO COSTO LINA PRUEBA 03"
+  },
+  {
+    "Codigo": "CL4",
+    "nom_cco": "CENTRO COSTO LINA PRUEBA 04"
+  },
+  {
+    "Codigo": "CL5",
+    "nom_cco": "CENTRO COSTO LINA PRUEBA 05"
+  },
+  {
+    "Codigo": "CL6",
+    "nom_cco": "CENTRO COSTO LINA PRUEBA 06"
+  },
+  {
+    "Codigo": "CL7",
+    "nom_cco": "CENTRO COSTO LINA PRUEBA 07"
+  },
+  {
+    "Codigo": "CL8",
+    "nom_cco": "CENTRO COSTO LINA PRUEBA 08"
+  }
+]

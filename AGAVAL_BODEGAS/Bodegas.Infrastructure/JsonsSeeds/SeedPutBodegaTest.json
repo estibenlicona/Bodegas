@@ -1,0 +1,42 @@
+{
+  "codigo": "A01",
+  "codigoSucursal": "C46",
+  "nombre": "MUEBLES SAN CRISTOBAL 3",
+  "direccion": "CARRERA 98 A # 66 E 260, EN ROBLEDO PAJARITO",
+  "telefono": "3206723854",
+  "centroCosto": "A01",
+  "nit": "901434361",
+  "codigoCiudad": "05088000",
+  "validaReferencias": 1,
+  "informacionAliadoDto": {
+    "emailContable": "ESTIBENLICONA@GMAIL.COM",
+    "codigoBodega": "A01",
+    "porcentjeComision": 3,
+    "sector": "TENNIS",
+    "representanteLegal": "ESTIBEN LICONA",
+    "inicioFacturacion": "2022-07-14T05:00:00.000Z",
+    "diasPago": "15",
+    "activo": true,
+    "recibeAbonos": 1,
+    "fechaActivacion": null,
+    "fechaInActivacion": null,
+    "tipoCupo": "PLUS",
+    "b2c": false
+  },
+  "cajaDto": {
+    "codigo": "200",
+    "nombre": "CAJA200",
+    "bodega": "A01",
+    "centroCosto": "A01",
+    "prefijo": "200"
+  },
+  "resolucionDto": {
+    "caja": "200",
+    "numeroResolucion": "18764027221184",
+    "fecha": "2022-03-30T00:00:00",
+    "resolucionInicial": "A2001",
+    "resolucionFinal": "A200500000",
+    "codigoAplicacion": "INV",
+    "codigoContable": "510"
+  }
+}

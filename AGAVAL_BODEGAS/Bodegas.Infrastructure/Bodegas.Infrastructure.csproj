@@ -1,0 +1,82 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="JsonsSeeds\SeedAddBodegaTest.json" />
+    <None Remove="JsonsSeeds\SeedAddCajaTest.json" />
+    <None Remove="JsonsSeeds\SeedBodegasAliadosTest.json" />
+    <None Remove="JsonsSeeds\SeedBodegasTest.json" />
+    <None Remove="JsonsSeeds\SeedCajasTest.json" />
+    <None Remove="JsonsSeeds\SeedCentroCostoTest.json" />
+    <None Remove="JsonsSeeds\SeedListBodegasTest.json" />
+    <None Remove="JsonsSeeds\SeedPostB2cTest.json" />
+    <None Remove="JsonsSeeds\SeedPostBodegaEntityTest.json" />
+    <None Remove="JsonsSeeds\SeedPostBodegaTest.json" />
+    <None Remove="JsonsSeeds\SeedPostBodegaTest2.json" />
+    <None Remove="JsonsSeeds\SeedPutBodegaTest.json" />
+    <None Remove="JsonsSeeds\SeedResolucionesTest.json" />
+    <None Remove="JsonsSeeds\SeedSucursalesTest.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="JsonsSeeds\SeedBodegasAliadosTest.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="JsonsSeeds\SeedBodegasTest.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="JsonsSeeds\SeedAddCajaTest.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="JsonsSeeds\SeedCajasTest.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="JsonsSeeds\SeedCentroCostoTest.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="JsonsSeeds\SeedListBodegasTest.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="JsonsSeeds\SeedPostB2cTest.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="JsonsSeeds\SeedAddBodegaTest.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="JsonsSeeds\SeedPostBodegaEntityTest.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="JsonsSeeds\SeedPostBodegaTest2.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="JsonsSeeds\SeedPostBodegaTest.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="JsonsSeeds\SeedPutBodegaTest.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="JsonsSeeds\SeedResolucionesTest.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="JsonsSeeds\SeedSucursalesTest.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.6" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="System.Text.RegularExpressions" Version="4.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Bodegas.Domain\Bodegas.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

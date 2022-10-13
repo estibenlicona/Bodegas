@@ -1,0 +1,30 @@
+<button mat-icon-button [matMenuTriggerFor]="menu" #menuTrigger="matMenuTrigger" [class]="Class" (click)="$event.stopPropagation()"><mat-icon>filter_list</mat-icon></button>
+<mat-menu #menu="matMenu" xPosition="before">
+  <form class="form-filters" (ngSubmit)="OnApplyFilter()">
+    <mat-form-field appearance="outline" *ngIf="Type === FilterType.Date" (click)="$event.stopPropagation()" style="margin-bottom: 35px;">
+      <mat-label>Ingrese un rango de fechas</mat-label>
+      <mat-date-range-input [formGroup]="range" [rangePicker]="picker">
+        <input matStartDate formControlName="start" placeholder="Start date">
+        <input matEndDate formControlName="end" placeholder="End date">
+      </mat-date-range-input>
+      <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+      <mat-date-range-picker #picker></mat-date-range-picker>
+      <mat-error *ngIf="range.controls.start.hasError('matStartDateInvalid')">Fecha inicial invalidad</mat-error>
+      <mat-error *ngIf="range.controls.end.hasError('matEndDateInvalid')">Fecha final invalidad</mat-error>
+    </mat-form-field>
+    <mat-form-field appearance="outline" *ngIf="Type !== FilterType.Date" (click)="$event.stopPropagation()">
+      <mat-label>Filtro</mat-label>
+      <mat-select [formControl]="selectFiltro">
+        <mat-option [value]="filter" *ngFor="let filter of filters">{{ filter }}</mat-option>
+      </mat-select>
+    </mat-form-field>
+    <mat-form-field *ngIf="Type !== FilterType.Date" appearance="outline" (click)="$event.stopPropagation()">
+      <mat-label>Ingrese un valor</mat-label>
+      <input matInput #filterValue>
+    </mat-form-field>
+    <div class="content-button-filters" (click)="$event.stopPropagation()">
+      <button type="submit" mat-raised-button color="primary">Aplicar</button>
+    </div>
+  </form>
+</mat-menu>
+

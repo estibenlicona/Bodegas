@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: bodegas-api
+  namespace: bodegas
+  labels:
+    app: bodegas-api
+spec:
+  type: ClusterIP
+  sessionAffinity: ClientIP
+  ports:
+  - name: http
+    port: 80
+    targetPort: 80
+  selector:
+    app: bodegas-api

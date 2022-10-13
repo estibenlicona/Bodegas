@@ -1,0 +1,15 @@
+<app-navbar [inputDrawer]="drawer"></app-navbar>
+<mat-drawer-container class="agaval-container" autosize>
+  <mat-drawer #drawer class="agaval-sidenav" mode="side">
+    <mat-list>
+      <div mat-subheader>Menu</div>
+      <mat-list-item matRipple [matRippleCentered]="true" [routerLink]="[item.src]" class="agaval-item" *ngFor="let item of itemsMenu">
+        <div mat-line>{{ item.title }}</div>
+        <mat-icon mat-list-icon>{{ item.icon }}</mat-icon>
+      </mat-list-item>
+    </mat-list>
+  </mat-drawer>
+  <div class="agaval-sidenav-content">
+    <router-outlet></router-outlet>
+  </div>
+</mat-drawer-container>

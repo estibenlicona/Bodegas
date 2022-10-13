@@ -1,0 +1,13 @@
+.form-filters {
+  padding: 10px;
+}
+
+.content-button-filters {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.content-button-filters > button {
+  margin-left: 10px;
+}
+

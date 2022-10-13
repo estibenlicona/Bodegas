@@ -1,0 +1,246 @@
+<mat-progress-bar mode="indeterminate" *ngIf="spinner"></mat-progress-bar>
+<mat-stepper>
+  <mat-step [stepControl]="formBodega">
+    <ng-template matStepLabel>Informacion Bodega</ng-template>
+    <div matStepContent class="stepper-content">
+      <form [formGroup]="formBodega">
+        <ng-template matStepLabel>Fill out your name</ng-template>
+        <mat-form-field appearance="outline">
+          <mat-label>Codigo</mat-label>
+          <input
+            matInput
+            formControlName="codigo"
+            [value]="inputCco.value"
+            maxlength="3"
+            #inputCodigo
+            oninput="this.value = this.value.toUpperCase()">
+            <mat-hint matSuffix>{{ inputCodigo.value?.length || 0}}/3 </mat-hint>
+        </mat-form-field>
+        <mat-form-field class="example-full-width" appearance="outline">
+          <mat-label>Centro Costo</mat-label>
+          <input type="text"
+                 placeholder="Busqueda por codigo o nombre"
+                 matInput
+                 formControlName="centroCosto"
+                 [matAutocomplete]="autocompletecco"
+                 maxlength="3"
+                 #inputCco
+                 oninput="this.value = this.value.toUpperCase()">
+                 <mat-hint matSuffix>{{ inputCco.value?.length || 0}}/3 </mat-hint>
+          <mat-autocomplete #autocompletecco="matAutocomplete">
+            <mat-option *ngFor="let centrocosto of centroscostos" [value]="centrocosto.codigo">
+              <div class="row-select" color="primary">
+                <div class="codigo-select">
+                  <b>Codigo:</b> {{ centrocosto.codigo }}
+                </div>
+                <mat-divider [vertical]="true"></mat-divider>
+                <div class="nombre-select">
+                  <b>Nombre:</b> {{ centrocosto.nombre }}
+                </div>
+              </div>
+            </mat-option>
+          </mat-autocomplete>
+        </mat-form-field>
+        <mat-form-field class="example-full-width" appearance="outline">
+          <mat-label>Codigo Sucursal</mat-label>
+          <input type="text"
+                 placeholder="Busqueda por codigo o nombre"
+                 matInput
+                 formControlName="codigoSucursal"
+                 [matAutocomplete]="autocompletesucursal"
+                 maxlength="3"
+                 #inputSucursal
+                 oninput="this.value = this.value.toUpperCase()">
+                 <mat-hint matSuffix>{{ inputSucursal.value?.length || 0}}/3 </mat-hint>
+          <mat-autocomplete #autocompletesucursal="matAutocomplete">
+            <mat-option *ngFor="let sucursal of sucursales" [value]="sucursal.codigo">
+              <div class="row-select" color="primary">
+                <div class="codigo-select">
+                  <b>Codigo:</b> {{ sucursal.codigo }}
+                </div>
+                <mat-divider [vertical]="true"></mat-divider>
+                <div class="nombre-select">
+                  <b>Nombre:</b> {{ sucursal.nombre }}
+                </div>
+              </div>
+            </mat-option>
+          </mat-autocomplete>
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+          <mat-label>Codigo Caja</mat-label>
+          <input matInput oninput="this.value = this.value.toUpperCase()" formControlName="codigoCaja" #inputCodigoCaja maxlength="3">
+          <mat-hint matSuffix>{{ inputCodigoCaja.value?.length || 0}}/3 </mat-hint>
+        </mat-form-field>
+        <div class="flex-row">
+          <div class="flex-item">
+            <mat-form-field class="example-chip-list" appearance="outline">
+              <mat-label>Tercero</mat-label>
+              <input type="text"
+                 placeholder="Busqueda por nit"
+                 matInput
+                 #inputTercero
+                 formControlName="nit"
+                 [matAutocomplete]="autocompleteTercero"
+                 #trigger="matAutocompleteTrigger"
+                 maxlength="15"
+                 oninput="this.value = this.value.toUpperCase()">
+                 <mat-hint matSuffix>{{ inputTercero.value?.length || 0}}/15 </mat-hint>
+              <mat-autocomplete #autocompleteTercero="matAutocomplete">
+                <mat-option *ngFor="let tercero of terceros" [value]="tercero.nit">
+                  <div class="row-select" color="primary">
+                    <div class="nit-select">
+                      <b>Nit:</b> {{ tercero.nit }}
+                    </div>
+                    <mat-divider [vertical]="true"></mat-divider>
+                    <div class="nombre-select">
+                      <b>Nombre:</b> {{ tercero.nombre }}
+                    </div>
+                  </div>
+                </mat-option>
+              </mat-autocomplete>
+            </mat-form-field>
+          </div>
+          <div class="flex-item-shrink">
+            <button mat-raised-button color="primary" [disabled]="!activeBtnSearchTercero" (click)="searchTercero(trigger)"><mat-icon>search</mat-icon></button>
+          </div>
+        </div>
+        <mat-form-field appearance="outline">
+          <mat-label>Nombre</mat-label>
+          <input matInput formControlName="nombre" oninput="this.value = this.value.toUpperCase()" placeholder="Ingrese un nombre" #inputNombreBodega maxlength="30">
+          <mat-hint matSuffix>{{ inputNombreBodega.value?.length || 0}}/30 </mat-hint>
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+          <mat-label>Codigo Ciudad</mat-label>
+          <input matInput formControlName="codigoCiudad" oninput="this.value = this.value.toUpperCase()" #inputCodigoCiudad maxlength="20">
+          <mat-hint matSuffix>{{ inputCodigoCiudad.value?.length || 0}}/20 </mat-hint>
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+          <mat-label>Direccion</mat-label>
+          <input matInput formControlName="direccion" oninput="this.value = this.value.toUpperCase()" placeholder="Ingrese una direccion" #inputDireccion maxlength="80">
+          <mat-hint matSuffix>{{ inputDireccion.value?.length || 0}}/80 </mat-hint>
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+          <mat-label>Telefono</mat-label>
+          <input matInput formControlName="telefono" oninput="this.value = this.value.toUpperCase()" placeholder="Ingrese una telefono" (keypress)="valideNumber($event)" #inputTelefono maxlength="10">
+          <mat-hint matSuffix>{{ inputTelefono.value?.length || 0}}/10 </mat-hint>
+        </mat-form-field>
+        <mat-card class="card-options">
+          <mat-card-content>
+            <section class="example-section">
+              <mat-checkbox color="primary" class="example-margin" formControlName="validaReferencias">Valida Referencias</mat-checkbox>
+               </section>
+          </mat-card-content>
+        </mat-card>
+        <div class="row-buttons-steps">
+          <button color="primary" mat-raised-button matStepperNext>Siguiente</button>
+        </div>
+      </form>
+    </div>
+  </mat-step>
+  <mat-step [stepControl]="formInfoAliado">
+    <ng-template matStepLabel>Informacion Aliado</ng-template>
+    <div matStepContent class="stepper-content">
+      <form [formGroup]="formInfoAliado">
+        <mat-form-field appearance="outline">
+          <mat-label>Correo</mat-label>
+          <input matInput oninput="this.value = this.value.toUpperCase()" formControlName="emailContable" #inputCorreo maxlength="100">
+          <mat-hint matSuffix>{{ inputCorreo.value?.length || 0}}/100 </mat-hint>
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+          <mat-label>Sector</mat-label>
+          <input matInput oninput="this.value = this.value.toUpperCase()" formControlName="sector" #inputSector maxlength="20">
+          <mat-hint matSuffix>{{ inputSector.value?.length || 0}}/20 </mat-hint>
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+          <mat-label>Representante</mat-label>
+          <input matInput oninput="this.value = this.value.toUpperCase()" formControlName="representanteLegal" #inputRepresentante maxlength="50">
+          <mat-hint matSuffix>{{ inputRepresentante.value?.length || 0}}/50 </mat-hint>
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+          <mat-label>Inicio Facturacion</mat-label>
+          <input matInput [matDatepicker]="pickerInicioFacturacion" formControlName="inicioFacturacion">
+          <mat-datepicker-toggle matSuffix [for]="pickerInicioFacturacion"></mat-datepicker-toggle>
+          <mat-datepicker touchUi  #pickerInicioFacturacion></mat-datepicker>
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+          <mat-label>Porcentaje de comision</mat-label>
+          <input matInput formControlName="porcentjeComision" #inputComision maxlength="5" (keypress)="valideNumberDecimal($event)">
+          <mat-hint matSuffix>{{ inputComision.value?.length || 0}}/5 </mat-hint>
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+          <mat-label>Dias de pago</mat-label>
+          <input matInput formControlName="diasPago" #inputdiasPago maxlength="3" (keypress)="valideNumber($event)">
+          <mat-hint matSuffix>{{ inputdiasPago.value?.length || 0}}/3 </mat-hint>
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+          <mat-label>Tipo de cupo</mat-label>
+          <mat-select formControlName="tipoCupo">
+            <mat-option value="AGAVAL">AGAVAL</mat-option>
+            <mat-option value="PLUS">PLUS</mat-option>
+          </mat-select>
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+          <mat-label>Fecha Activacion</mat-label>
+          <input matInput [matDatepicker]="pickerFechaActivacion" formControlName="fechaActivacion">
+          <mat-datepicker-toggle matSuffix [for]="pickerFechaActivacion"></mat-datepicker-toggle>
+          <mat-datepicker touchUi  #pickerFechaActivacion></mat-datepicker>
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+          <mat-label>Fecha Inactivacion</mat-label>
+          <input matInput [matDatepicker]="picker" formControlName="fechaInActivacion">
+          <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+          <mat-datepicker touchUi  #picker></mat-datepicker>
+        </mat-form-field>
+        <mat-card class="card-options">
+          <mat-card-content>
+            <mat-card-subtitle>Recibe Abono</mat-card-subtitle>
+            <section class="example-section">
+              <mat-checkbox color="primary" class="example-margin" formControlName="recibeAbonoAgaval">Agaval</mat-checkbox>
+              <mat-checkbox color="primary" class="example-margin" formControlName="recibeAbonoComercio">Comercio</mat-checkbox>
+              <mat-checkbox color="primary" class="example-margin" formControlName="recibeAbonoTienda">Tienda</mat-checkbox>
+            </section>
+          </mat-card-content>
+        </mat-card>
+        <mat-card class="card-options">
+          <mat-card-content>
+            <section class="example-section">
+              <mat-checkbox color="primary" class="example-margin" formControlName="activo">Activa</mat-checkbox>
+            </section>
+          </mat-card-content>
+        </mat-card>
+        <div class="row-buttons-steps" *ngIf="!actualizar">
+          <button color="primary" mat-raised-button matStepperPrevious>Atras</button>
+          <button color="primary" mat-raised-button matStepperNext>Siguiente</button>
+        </div>
+        <div class="row-buttons-steps" *ngIf="actualizar">
+          <button color="primary" mat-raised-button matStepperPrevious>Atras</button>
+          <button color="primary" mat-raised-button (click)="Guardar()" *ngIf="!actualizar">Guardar</button>
+          <button color="primary" mat-raised-button (click)="Actualizar()" *ngIf="actualizar">Actualizar</button>
+        </div>
+      </form>
+    </div>
+  </mat-step>
+  <mat-step [stepControl]="formResolucion" *ngIf="!actualizar">
+    <ng-template matStepLabel>Informacion Resolucion</ng-template>
+    <div div matStepContent class="stepper-content">
+      <form [formGroup]="formResolucion">
+        <mat-form-field appearance="outline">
+          <mat-label>Resolucion</mat-label>
+          <input matInput oninput="this.value = this.value.toUpperCase()" formControlName="numeroResolucion" #inputResolucion maxlength="15">
+          <mat-hint matSuffix>{{ inputResolucion.value?.length || 0}}/15 </mat-hint>
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+          <mat-label>Fecha</mat-label>
+          <input matInput [matDatepicker]="pickerFecha" formControlName="fecha">
+          <mat-datepicker-toggle matSuffix [for]="pickerFecha"></mat-datepicker-toggle>
+          <mat-datepicker touchUi  #pickerFecha></mat-datepicker>
+        </mat-form-field>
+        <div class="row-buttons-steps">
+          <button color="primary" mat-raised-button matStepperPrevious>Atras</button>
+          <button color="primary" mat-raised-button (click)="Guardar()" *ngIf="!actualizar">Guardar</button>
+          <button color="primary" mat-raised-button (click)="Actualizar()" *ngIf="actualizar">Actualizar</button>
+        </div>
+      </form>
+    </div>
+  </mat-step>
+</mat-stepper>

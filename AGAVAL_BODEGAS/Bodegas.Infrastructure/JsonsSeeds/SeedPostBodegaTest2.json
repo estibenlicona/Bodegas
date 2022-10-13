@@ -1,0 +1,46 @@
+{
+  "codigo": "CT9",
+  "codigoSucursal": "001",
+  "nombre": "BODEGA PRUEBAS 02",
+  "direccion": "CARRERA 70 1 - 41 LOCAL 0169",
+  "telefono": "3105391335",
+  "centroCosto": "CT9",
+  "nit": "1028030389",
+  "codigoCiudad": "05001",
+  "validaReferencias": 1,
+  "numeroActual": 0,
+  "informacionAliadoDto": {
+    "emailContable": "ESTIBENLICONA@GMAIL.COM",
+    "codigoBodega": "CT9",
+    "porcentjeComision": "1",
+    "sector": "TENNIS",
+    "representanteLegal": "ESTIBEN LICONA",
+    "inicioFacturacion": "2022-06-22T05:00:00.000Z",
+    "diasPago": "15",
+    "activo": true,
+    "recibeAbonos": 1,
+    "fechaActivacion": "2022-08-12T19:53:10.451Z",
+    "fechaInActivacion": null,
+    "tipoCupo": "PLUS",
+    "b2c": false
+  },
+  "cajaDto": {
+    "codigo": "988",
+    "nombre": "CAJA988",
+    "bodega": "CT9",
+    "centroCosto": "CT9",
+    "prefijo": "A988",
+    "numeroActual": 0
+  },
+  "resolucionDto": {
+    "caja": "988",
+    "numeroResolucion": "1028030389",
+    "fecha": "2022-06-22T05:00:00.000Z",
+    "resolucionInicial": "A9881",
+    "resolucionFinal": "A988500000",
+    "codigoAplicacion": "INV",
+    "codigoContable": "510",
+    "prefijo": "A988",
+    "numeroActual": 0
+  }
+}

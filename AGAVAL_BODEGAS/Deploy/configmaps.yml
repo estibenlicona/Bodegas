@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: configmaps
+  namespace: bodegas
+data:
+  API_ALIADO: ""

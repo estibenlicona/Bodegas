@@ -1,0 +1,189 @@
+<mat-progress-bar mode="indeterminate" *ngIf="spinner"></mat-progress-bar>
+<table mat-table [dataSource]="dataSource" matSort (matSortChange)="OnSortData()" class="mat-elevation-z1">
+  <!--Codigo-->
+  <ng-container matColumnDef="codigo" sticky>
+    <th mat-header-cell *matHeaderCellDef mat-sort-header>Codigo
+      <app-button-filter Column="Codigo" (changefilterEvent)="changefilterEvent($event)" [Type]="FilterType.String" Class="sort"></app-button-filter>
+    </th>
+    <td mat-cell *matCellDef="let bodega">{{bodega.codigo}}</td>
+  </ng-container>
+  <!--Nombre-->
+  <ng-container matColumnDef="nombre">
+    <div class="test">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Nombre
+        <app-button-filter Column="nom_bod" (changefilterEvent)="changefilterEvent($event)" [Type]="FilterType.String" Class="sort"></app-button-filter>
+      </th>
+    </div>
+
+    <td mat-cell *matCellDef="let bodega">{{bodega.nombre}}</td>
+  </ng-container>
+  <!--Sucursal-->
+  <ng-container matColumnDef="codigoSucursal">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header>Codigo&nbsp;Sucursal
+      <app-button-filter Column="codigoSucursal" (changefilterEvent)="changefilterEvent($event)" [Type]="FilterType.String" Class="sort"></app-button-filter>
+    </th>
+    <td mat-cell *matCellDef="let bodega">{{bodega.codigoSucursal}}</td>
+  </ng-container>
+    <!--Sucursal-->
+    <ng-container matColumnDef="nombreSucursal">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Nombre&nbsp;Sucursal
+        <app-button-filter Column="nombreSucursal" (changefilterEvent)="changefilterEvent($event)" [Type]="FilterType.String" Class="sort"></app-button-filter>
+      </th>
+      <td mat-cell *matCellDef="let bodega">{{ bodega.sucursalDto.nombre }}</td>
+    </ng-container>
+  <!--Telefono-->
+  <ng-container matColumnDef="telefono">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header>Telefono
+      <app-button-filter Column="tel_bod" (changefilterEvent)="changefilterEvent($event)" [Type]="FilterType.String" Class="sort"></app-button-filter>
+    </th>
+    <td mat-cell *matCellDef="let bodega">{{ bodega.telefono }}</td>
+  </ng-container>
+  <!--Direccion-->
+  <ng-container matColumnDef="direccion">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header>Direccion
+      <app-button-filter Column="dir_bod" (changefilterEvent)="changefilterEvent($event)" [Type]="FilterType.String" Class="sort"></app-button-filter>
+    </th>
+    <td mat-cell *matCellDef="let bodega">{{bodega.direccion}}</td>
+  </ng-container>
+  <!--Centro Costo-->
+  <ng-container matColumnDef="centrocosto">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header>CCO
+      <app-button-filter Column="cod_cco" (changefilterEvent)="changefilterEvent($event)" [Type]="FilterType.String" Class="sort"></app-button-filter>
+    </th>
+    <td mat-cell *matCellDef="let bodega">{{bodega.centroCosto}}</td>
+  </ng-container>
+  <!--Nit-->
+  <ng-container matColumnDef="nit">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header>Nit
+      <app-button-filter Column="cod_ter" (changefilterEvent)="changefilterEvent($event)" [Type]="FilterType.String" Class="sort"></app-button-filter>
+    </th>
+    <td mat-cell *matCellDef="let bodega">{{bodega.nit}}</td>
+  </ng-container>
+  <!--Correo-->
+  <ng-container matColumnDef="correo">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header>Correo
+      <app-button-filter Column="BodegaAliado.e_mail_cnt" (changefilterEvent)="changefilterEvent($event)" [Type]="FilterType.String" Class="sort"></app-button-filter>
+    </th>
+    <td mat-cell *matCellDef="let bodega">{{ bodega.informacionAliadoDto.emailContable }}</td>
+  </ng-container>
+  <!--Ciudad-->
+  <ng-container matColumnDef="codigoCiudad">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header>Ciudad
+      <app-button-filter Column="cod_ciu" (changefilterEvent)="changefilterEvent($event)" [Type]="FilterType.String" Class="sort"></app-button-filter>
+    </th>
+    <td mat-cell *matCellDef="let bodega">{{ bodega.codigoCiudad }}</td>
+  </ng-container>
+  <!--Sector-->
+  <ng-container matColumnDef="sector">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header>Sector
+      <app-button-filter Column="BodegaAliado.sector" (changefilterEvent)="changefilterEvent($event)" [Type]="FilterType.String" Class="sort"></app-button-filter>
+    </th>
+    <td mat-cell *matCellDef="let bodega">{{ bodega.informacionAliadoDto.sector }}</td>
+  </ng-container>
+  <!--Representante Legal-->
+  <ng-container matColumnDef="representantelegal">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header>Representante Legal
+      <app-button-filter Column="BodegaAliado.repre_legal" (changefilterEvent)="changefilterEvent($event)" [Type]="FilterType.String" Class="sort"></app-button-filter>
+    </th>
+    <td mat-cell *matCellDef="let bodega">{{ bodega.informacionAliadoDto.representanteLegal }}</td>
+  </ng-container>
+  <!--Representante Legal-->
+  <ng-container matColumnDef="inicioFacturacion">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header>Incio Facturacion
+      <app-button-filter Column="BodegaAliado.ini_fact" (changefilterEvent)="changefilterEvent($event)" [Type]="FilterType.Date" Class="sort"></app-button-filter>
+    </th>
+    <td mat-cell *matCellDef="let bodega">{{ bodega.informacionAliadoDto.inicioFacturacion  | date:"yyyy-MM-dd" }}</td>
+  </ng-container>
+  <!--Representante Legal-->
+  <ng-container matColumnDef="porcentjeComision">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header>%&nbsp;Comision
+      <app-button-filter Column="BodegaAliado.por_comision" (changefilterEvent)="changefilterEvent($event)" [Type]="FilterType.Number" Class="sort"></app-button-filter>
+    </th>
+    <td mat-cell *matCellDef="let bodega">{{ bodega.informacionAliadoDto.porcentjeComision | number : '1.2' }}</td>
+  </ng-container>
+  <!--Representante Legal-->
+  <ng-container matColumnDef="diasPago">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header>Dias&nbsp;de&nbsp;pago
+      <app-button-filter Column="BodegaAliado.d_pagos" (changefilterEvent)="changefilterEvent($event)" [Type]="FilterType.String" Class="sort"></app-button-filter>
+    </th>
+    <td mat-cell *matCellDef="let bodega">{{ bodega.informacionAliadoDto.diasPago }}</td>
+  </ng-container>
+  <ng-container matColumnDef="validaReferencias">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header>Valida&nbsp;Referencias
+      <app-button-filter Column="BodegaAliado.validaReferencias" (changefilterEvent)="changefilterEvent($event)" [Type]="FilterType.String" Class="sort"></app-button-filter>
+    </th>
+    <td mat-cell *matCellDef="let bodega">
+      <mat-checkbox color="primary" [checked]="(bodega.informacionAliadoDto.validaReferencias === 0) ? false : true"></mat-checkbox>
+    </td>
+  </ng-container>
+  <!--Representante Legal-->
+  <ng-container matColumnDef="recibeAbonos">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header>Recibe&nbsp;Abonos
+      <app-button-filter Column="BodegaAliado.rec_abo_aga" (changefilterEvent)="changefilterEvent($event)" [Type]="FilterType.String" Class="sort"></app-button-filter>
+    </th>
+    <td mat-cell *matCellDef="let bodega">
+      <mat-checkbox color="primary" [checked]="(bodega.informacionAliadoDto.recibeAbonos === 0) ? false : true"></mat-checkbox>
+    </td>
+  </ng-container>
+  <!--Representante Legal-->
+  <ng-container matColumnDef="tipoCupo">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header>Tipo&nbsp;Cupo
+      <app-button-filter Column="BodegaAliado.t_cupo" (changefilterEvent)="changefilterEvent($event)" [Type]="FilterType.String" Class="sort"></app-button-filter>
+    </th>
+    <td mat-cell *matCellDef="let bodega">{{ bodega.informacionAliadoDto.tipoCupo }}</td>
+  </ng-container>
+  <!--Representante Legal-->
+  <ng-container matColumnDef="fechaActivacion">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header>Activacion
+      <app-button-filter Column="BodegaAliado.f_activacion" (changefilterEvent)="changefilterEvent($event)" [Type]="FilterType.Date" Class="sort"></app-button-filter>
+    </th>
+    <td mat-cell *matCellDef="let bodega">{{ bodega.informacionAliadoDto.fechaActivacion | date:"yyyy-MM-dd" }}</td>
+  </ng-container>
+  <!--Representante Legal-->
+  <ng-container matColumnDef="fechaInActivacion">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header>Inactivacion
+      <app-button-filter Column="BodegaAliado.f_inactivacion" (changefilterEvent)="changefilterEvent($event)" [Type]="FilterType.Date" Class="sort"></app-button-filter>
+    </th>
+    <td mat-cell *matCellDef="let bodega">{{ bodega.informacionAliadoDto.fechaInActivacion | date:"yyyy-MM-dd" }}</td>
+  </ng-container>
+  <!-- Editar -->
+  <ng-container matColumnDef="edit" stickyEnd>
+    <th mat-header-cell *matHeaderCellDef aria-label="row actions"><mat-icon>open_in_new</mat-icon></th>
+    <td mat-cell *matCellDef="let bodega">
+      <button mat-icon-button [routerLink]="['/bodega', bodega.codigo]">
+        <mat-icon>open_in_new</mat-icon>
+      </button>
+    </td>
+  </ng-container>
+  <!--Representante Legal-->
+  <ng-container matColumnDef="activo" stickyEnd>
+    <th mat-header-cell *matHeaderCellDef aria-label="row actions">Activo</th>
+    <td mat-cell *matCellDef="let bodega">
+      <mat-checkbox color="primary" [checked]="bodega.informacionAliadoDto.activo" [disabled]="true"></mat-checkbox>
+    </td>
+  </ng-container>
+    <!--Representante Legal-->
+    <ng-container matColumnDef="b2c" stickyEnd>
+      <th mat-header-cell *matHeaderCellDef aria-label="row actions"><mat-icon>cloud_sync</mat-icon></th>
+      <td mat-cell *matCellDef="let bodega">
+        <button mat-icon-button (click)="sendB2c(bodega.codigo, bodega.codigoSucursal, bodega.nombre, bodega.nombreSucursal, bodega.informacionAliadoDto.porcentjeComision,bodega.informacionAliadoDto.tipoCupo)"><mat-icon>cloud_sync</mat-icon></button>
+      </td>
+    </ng-container>
+  <ng-container matColumnDef="footer-paginator" sticky>
+    <td mat-footer-cell *matFooterCellDef colspan="12">
+      <mat-paginator  [length]="0"
+                      [pageSize]="10"
+                      [pageIndex]="0"
+                      [pageSizeOptions]="[5, 10, 25, 100]"
+                      (page)="OnChangePage()"
+                      aria-label="Pagina"
+                      class="paginator">
+      </mat-paginator>
+    </td>
+  </ng-container>
+
+  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+  <tr mat-row *matRowDef="let row; columns: displayedColumns;" (dblclick)="edit(row)" class="tr-row"></tr>
+  <tr mat-footer-row *matFooterRowDef="['footer-paginator']"></tr>
+</table>
+

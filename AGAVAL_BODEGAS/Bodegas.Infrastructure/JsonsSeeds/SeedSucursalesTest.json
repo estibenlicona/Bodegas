@@ -1,0 +1,674 @@
+[
+  {
+    "Codigo": "0",
+    "Nombre": "NO APLICA"
+  },
+  {
+    "Codigo": "00",
+    "Nombre": null
+  },
+  {
+    "Codigo": "001",
+    "Nombre": "AD1 JUNIN"
+  },
+  {
+    "Codigo": "002",
+    "Nombre": "AD2 ITAGUI"
+  },
+  {
+    "Codigo": "003",
+    "Nombre": "AD3 BELLO"
+  },
+  {
+    "Codigo": "004",
+    "Nombre": "ORIENTAL"
+  },
+  {
+    "Codigo": "006",
+    "Nombre": "AD5 FLORIDA"
+  },
+  {
+    "Codigo": "009",
+    "Nombre": "AD4 ORIENTAL"
+  },
+  {
+    "Codigo": "010",
+    "Nombre": "AD6 LA CENTRAL"
+  },
+  {
+    "Codigo": "038",
+    "Nombre": "TIENDA VIRTUAL"
+  },
+  {
+    "Codigo": "051",
+    "Nombre": "MI AGAVAL RIONEGRO"
+  },
+  {
+    "Codigo": "1",
+    "Nombre": "MEDELLIN"
+  },
+  {
+    "Codigo": "2",
+    "Nombre": "ITAGUI"
+  },
+  {
+    "Codigo": "201",
+    "Nombre": "CARTERA"
+  },
+  {
+    "Codigo": "21",
+    "Nombre": "AS1 SAN NICOLAS"
+  },
+  {
+    "Codigo": "22",
+    "Nombre": "AS2 MAYORCA"
+  },
+  {
+    "Codigo": "23",
+    "Nombre": "AS3 SANDIEGO"
+  },
+  {
+    "Codigo": "24",
+    "Nombre": "AS4 UNICENTRO"
+  },
+  {
+    "Codigo": "25",
+    "Nombre": "AS5 MOLINOS"
+  },
+  {
+    "Codigo": "26",
+    "Nombre": "AS6 SANTAFE"
+  },
+  {
+    "Codigo": "27",
+    "Nombre": "AS7 PUERTA DEL NORTE"
+  },
+  {
+    "Codigo": "28",
+    "Nombre": "AS8 PREMIUM PLAZA"
+  },
+  {
+    "Codigo": "29",
+    "Nombre": "AS9 ARKADIA"
+  },
+  {
+    "Codigo": "30",
+    "Nombre": "CHIPICHAPE"
+  },
+  {
+    "Codigo": "301",
+    "Nombre": "MEGACENTER"
+  },
+  {
+    "Codigo": "302",
+    "Nombre": "CEDI"
+  },
+  {
+    "Codigo": "303",
+    "Nombre": "TECNOLOGIA"
+  },
+  {
+    "Codigo": "304",
+    "Nombre": "TALENTO HUMANO"
+  },
+  {
+    "Codigo": "306",
+    "Nombre": "SERVICIO AL CLIENTE"
+  },
+  {
+    "Codigo": "308",
+    "Nombre": "SERVICIO CREDITO"
+  },
+  {
+    "Codigo": "31",
+    "Nombre": "COSMOCENTRO"
+  },
+  {
+    "Codigo": "32",
+    "Nombre": "STORE 12"
+  },
+  {
+    "Codigo": "401",
+    "Nombre": "SEDE ORIENTAL"
+  },
+  {
+    "Codigo": "51",
+    "Nombre": "MA1 RIONEGRO"
+  },
+  {
+    "Codigo": "52",
+    "Nombre": "MA2 MANRIQUE"
+  },
+  {
+    "Codigo": "53",
+    "Nombre": "MA3 CALDAS"
+  },
+  {
+    "Codigo": "54",
+    "Nombre": "MA3 CALDAS"
+  },
+  {
+    "Codigo": "55",
+    "Nombre": "MA4 CASTILLA"
+  },
+  {
+    "Codigo": "56",
+    "Nombre": "MA5 SAN JAVIER"
+  },
+  {
+    "Codigo": "57",
+    "Nombre": "MA6 GIRADOTA"
+  },
+  {
+    "Codigo": "58",
+    "Nombre": "MA7 SAN ANTONIO DE PRADO"
+  },
+  {
+    "Codigo": "59",
+    "Nombre": "MA8 MI AGAVAL 8"
+  },
+  {
+    "Codigo": "60",
+    "Nombre": "MA9 MI AGAVAL 9"
+  },
+  {
+    "Codigo": "61",
+    "Nombre": "MA10 MI AGAVAL 10"
+  },
+  {
+    "Codigo": "990",
+    "Nombre": "COBRO TECNOLOGIA"
+  },
+  {
+    "Codigo": "991",
+    "Nombre": "COBRO TALENTO HUMANO"
+  },
+  {
+    "Codigo": "A00",
+    "Nombre": "PUNTO TABLET"
+  },
+  {
+    "Codigo": "A01",
+    "Nombre": "GALERIA ISABEL"
+  },
+  {
+    "Codigo": "A02",
+    "Nombre": "MOTO ACCESORIOS JT"
+  },
+  {
+    "Codigo": "A03",
+    "Nombre": "BOUTIQUE SHADAY"
+  },
+  {
+    "Codigo": "A04",
+    "Nombre": "CASCO FACIL ENVIGADO"
+  },
+  {
+    "Codigo": "A05",
+    "Nombre": "DIGITAL MAC S.A.S"
+  },
+  {
+    "Codigo": "A06",
+    "Nombre": "FORMA FIT"
+  },
+  {
+    "Codigo": "A07",
+    "Nombre": "COMPU TOUCH Y ACCESORIOS"
+  },
+  {
+    "Codigo": "A08",
+    "Nombre": "BABY KIOSK"
+  },
+  {
+    "Codigo": "A09",
+    "Nombre": "MULTI CASCO"
+  },
+  {
+    "Codigo": "A10",
+    "Nombre": "DOCTOR GROUP S.A.S."
+  },
+  {
+    "Codigo": "A11",
+    "Nombre": "CICLO URBAN"
+  },
+  {
+    "Codigo": "A12",
+    "Nombre": "MOTO SITE"
+  },
+  {
+    "Codigo": "A13",
+    "Nombre": "MUEBLES FABRICAS UNIDAS"
+  },
+  {
+    "Codigo": "A14",
+    "Nombre": "WE MAC"
+  },
+  {
+    "Codigo": "A15",
+    "Nombre": "GAMERS COLOMBIA"
+  },
+  {
+    "Codigo": "A16",
+    "Nombre": "GALERIA TRAVESURAS"
+  },
+  {
+    "Codigo": "A17",
+    "Nombre": "LENCERIA SANTANDER"
+  },
+  {
+    "Codigo": "A18",
+    "Nombre": "MUEBLERIA NOREÑA"
+  },
+  {
+    "Codigo": "A19",
+    "Nombre": "OPTICA SUVISION TR2"
+  },
+  {
+    "Codigo": "A20",
+    "Nombre": "ARTE Y TONO"
+  },
+  {
+    "Codigo": "A21",
+    "Nombre": "LENTES ECONOMICOS"
+  },
+  {
+    "Codigo": "A22",
+    "Nombre": "LA GAFERIA"
+  },
+  {
+    "Codigo": "A23",
+    "Nombre": "MUEBLERIA COMFORT"
+  },
+  {
+    "Codigo": "A24",
+    "Nombre": "FITNESSMANIA CARABOBO"
+  },
+  {
+    "Codigo": "C00",
+    "Nombre": "CALIDAD VISUAL"
+  },
+  {
+    "Codigo": "C02",
+    "Nombre": "OPTICA ANDINA"
+  },
+  {
+    "Codigo": "C03",
+    "Nombre": "OPTICA ANDINA SAN DIEGO"
+  },
+  {
+    "Codigo": "C04",
+    "Nombre": "OPTICA BUENA VISTA"
+  },
+  {
+    "Codigo": "C05",
+    "Nombre": "CASA FERRETERA"
+  },
+  {
+    "Codigo": "C06",
+    "Nombre": "ODONTO GRUPO ODONTOLOGICO"
+  },
+  {
+    "Codigo": "C07",
+    "Nombre": "PAÑALERA MABABY"
+  },
+  {
+    "Codigo": "C08",
+    "Nombre": "PAÑALERA DULCE BEBE"
+  },
+  {
+    "Codigo": "C09",
+    "Nombre": "CENTRO VISUAL SANTA ANA"
+  },
+  {
+    "Codigo": "C10",
+    "Nombre": "ODONTOSPECIAL"
+  },
+  {
+    "Codigo": "C11",
+    "Nombre": "OPTICA FULL VISION"
+  },
+  {
+    "Codigo": "C12",
+    "Nombre": "MOTOR SALE GUARNE"
+  },
+  {
+    "Codigo": "C13",
+    "Nombre": "COLCHONES JUBILO"
+  },
+  {
+    "Codigo": "C14",
+    "Nombre": "PAÑALERA CANDY BABY"
+  },
+  {
+    "Codigo": "C15",
+    "Nombre": "GO-RIGO-GO"
+  },
+  {
+    "Codigo": "C16",
+    "Nombre": "CE ODONTOLOGICO"
+  },
+  {
+    "Codigo": "C17",
+    "Nombre": "GOODBABY.CO"
+  },
+  {
+    "Codigo": "C18",
+    "Nombre": "FAIT HOME"
+  },
+  {
+    "Codigo": "C19",
+    "Nombre": "CASA DEL MUEBLE"
+  },
+  {
+    "Codigo": "C20",
+    "Nombre": "DIGITAL STORE MEDELLIN"
+  },
+  {
+    "Codigo": "C21",
+    "Nombre": "TURBO ACCESORIOS GUAYABAL"
+  },
+  {
+    "Codigo": "C22",
+    "Nombre": "LENCERIA EN SUEÑOS"
+  },
+  {
+    "Codigo": "C23",
+    "Nombre": "CENTRO OPTICO"
+  },
+  {
+    "Codigo": "C24",
+    "Nombre": "ACRYLAB C.O."
+  },
+  {
+    "Codigo": "C25",
+    "Nombre": "PIXEL TECHNOLOGY"
+  },
+  {
+    "Codigo": "C26",
+    "Nombre": "TERABYTE TECNOLOGY"
+  },
+  {
+    "Codigo": "C27",
+    "Nombre": "PUNTO MOVIL"
+  },
+  {
+    "Codigo": "C28",
+    "Nombre": "ANFOMOTOS"
+  },
+  {
+    "Codigo": "C29",
+    "Nombre": "AGUA BENDITA"
+  },
+  {
+    "Codigo": "C30",
+    "Nombre": "OPTICA NEW LASER"
+  },
+  {
+    "Codigo": "C31",
+    "Nombre": "NATURAL DENT"
+  },
+  {
+    "Codigo": "C32",
+    "Nombre": "OPTICA Y VISION NC"
+  },
+  {
+    "Codigo": "C33",
+    "Nombre": "CASA BLANCA ITAGUI"
+  },
+  {
+    "Codigo": "C34",
+    "Nombre": "ORAL FLEX"
+  },
+  {
+    "Codigo": "C35",
+    "Nombre": "BEFIT"
+  },
+  {
+    "Codigo": "C36",
+    "Nombre": "ADRIANA ARANGO LA 70"
+  },
+  {
+    "Codigo": "C37",
+    "Nombre": "CLINICA MUNDO SONRISAS"
+  },
+  {
+    "Codigo": "C38",
+    "Nombre": "CENTRO ODONTOLOGICO BUCAL"
+  },
+  {
+    "Codigo": "C39",
+    "Nombre": "QUALITY"
+  },
+  {
+    "Codigo": "C41",
+    "Nombre": "CLINICA OFTALMOLOGÍA SAN DIEGO"
+  },
+  {
+    "Codigo": "C42",
+    "Nombre": "OPTICA SANTA LUCIA"
+  },
+  {
+    "Codigo": "C43",
+    "Nombre": "ZONA ROSA"
+  },
+  {
+    "Codigo": "C44",
+    "Nombre": "COCOA JEANS"
+  },
+  {
+    "Codigo": "C45",
+    "Nombre": "TODOSUPER"
+  },
+  {
+    "Codigo": "C46",
+    "Nombre": "MUEBLES SAN CRISTOBAL"
+  },
+  {
+    "Codigo": "C47",
+    "Nombre": "ZONA DIGITAL SUR"
+  },
+  {
+    "Codigo": "C48",
+    "Nombre": "OPTICASA ITAGUI"
+  },
+  {
+    "Codigo": "C49",
+    "Nombre": "XCESO GROUP"
+  },
+  {
+    "Codigo": "C50",
+    "Nombre": "OPTICA NACIONAL"
+  },
+  {
+    "Codigo": "C51",
+    "Nombre": "CASTILLITOS"
+  },
+  {
+    "Codigo": "C52",
+    "Nombre": "OPTICA MADRE LAURA"
+  },
+  {
+    "Codigo": "C53",
+    "Nombre": "OPTICAS DR ROJAS"
+  },
+  {
+    "Codigo": "C54",
+    "Nombre": "ECOMUEBLES"
+  },
+  {
+    "Codigo": "C55",
+    "Nombre": "OPTICA SAN FRANCISCO"
+  },
+  {
+    "Codigo": "C56",
+    "Nombre": "POLACO CASCOS Y ACCESORIOS"
+  },
+  {
+    "Codigo": "C57",
+    "Nombre": "SÚPER ÓPTICA"
+  },
+  {
+    "Codigo": "C58",
+    "Nombre": "FIARA SOTRE"
+  },
+  {
+    "Codigo": "C59",
+    "Nombre": "DIGITAL SOLUTIONS"
+  },
+  {
+    "Codigo": "C60",
+    "Nombre": "COLCHONES RANGER"
+  },
+  {
+    "Codigo": "C61",
+    "Nombre": "PAISA URBAN"
+  },
+  {
+    "Codigo": "C62",
+    "Nombre": "VARIEDADES DAMARIS"
+  },
+  {
+    "Codigo": "C63",
+    "Nombre": "TERRITORIO VISUAL"
+  },
+  {
+    "Codigo": "C64",
+    "Nombre": "OPTICA METRO VISUAL"
+  },
+  {
+    "Codigo": "C65",
+    "Nombre": "TOCO MADERA"
+  },
+  {
+    "Codigo": "C66",
+    "Nombre": "PUNTO MOVIL MONTERREY"
+  },
+  {
+    "Codigo": "C67",
+    "Nombre": "EXHIBICIONES CAMILA"
+  },
+  {
+    "Codigo": "C68",
+    "Nombre": "MEDELLÍN BICI"
+  },
+  {
+    "Codigo": "C69",
+    "Nombre": "MEDELLIN EN BICI LA 33"
+  },
+  {
+    "Codigo": "C70",
+    "Nombre": "MEDELLIN EN BICI POBLADO"
+  },
+  {
+    "Codigo": "C71",
+    "Nombre": "KSCOS INDUSTRY"
+  },
+  {
+    "Codigo": "C72",
+    "Nombre": "MODULARTESS"
+  },
+  {
+    "Codigo": "C73",
+    "Nombre": "OPTICALIA EXPRES"
+  },
+  {
+    "Codigo": "C75",
+    "Nombre": "FERNANDEZ Y CIA"
+  },
+  {
+    "Codigo": "C76",
+    "Nombre": "OPTICA ISABEL"
+  },
+  {
+    "Codigo": "C77",
+    "Nombre": "CONTACTO VISUAL GROUP S.A.S."
+  },
+  {
+    "Codigo": "C78",
+    "Nombre": "CONTACTO VISUAL GROUP S.A.S."
+  },
+  {
+    "Codigo": "C79",
+    "Nombre": "GALERIA CASA BLANCA"
+  },
+  {
+    "Codigo": "C80",
+    "Nombre": "GALERIA JIREH"
+  },
+  {
+    "Codigo": "C81",
+    "Nombre": "AUTOLLANTAS NUTIBARA S.A."
+  },
+  {
+    "Codigo": "C82",
+    "Nombre": "HOGAR & TECNOLOGIA"
+  },
+  {
+    "Codigo": "C83",
+    "Nombre": "GALARIA SAM ANGEL"
+  },
+  {
+    "Codigo": "C84",
+    "Nombre": "COMERCIALIZADORA 1 D 2 S.A.S"
+  },
+  {
+    "Codigo": "C85",
+    "Nombre": "ROMA STORE"
+  },
+  {
+    "Codigo": "C86",
+    "Nombre": "CASCO FACIL"
+  },
+  {
+    "Codigo": "C87",
+    "Nombre": "VELÁSQUEZ  BIKE"
+  },
+  {
+    "Codigo": "C88",
+    "Nombre": "DISTRIFLEX"
+  },
+  {
+    "Codigo": "C89",
+    "Nombre": "COLCHONES KMALÚ"
+  },
+  {
+    "Codigo": "C90",
+    "Nombre": "ALMACEN CREDITOS JTF"
+  },
+  {
+    "Codigo": "C91",
+    "Nombre": "VyV MUEBLECITOS"
+  },
+  {
+    "Codigo": "C92",
+    "Nombre": "FABRICACIONES FRANCO"
+  },
+  {
+    "Codigo": "C93",
+    "Nombre": "SERVIMUEBLES"
+  },
+  {
+    "Codigo": "C94",
+    "Nombre": "DISTRIMUEBLES"
+  },
+  {
+    "Codigo": "C95",
+    "Nombre": "CONFORT NIGHT"
+  },
+  {
+    "Codigo": "C96",
+    "Nombre": "AV SPORTS"
+  },
+  {
+    "Codigo": "C97",
+    "Nombre": "OPTICA ALTAMAR"
+  },
+  {
+    "Codigo": "C98",
+    "Nombre": "MUNDO AMERICANO"
+  },
+  {
+    "Codigo": "C99",
+    "Nombre": "DORMOBELO"
+  }
+]

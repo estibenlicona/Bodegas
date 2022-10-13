@@ -1,0 +1,67 @@
+.row-select {
+  display: flex;
+}
+
+.flex-row {
+  margin-bottom: 10px;
+}
+
+.codigo-select .nombre-select {
+  display: inline;
+}
+
+.codigo-select {
+  min-width: 100px;
+}
+
+.nombre-select {
+  padding-left: 10px;
+}
+
+.nit-select {
+  min-width: 130px;
+}
+
+.example-h2 {
+  margin: 10px;
+}
+
+.example-section {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  height: 60px;
+}
+
+.example-margin {
+  margin: 0 10px;
+}
+
+.row-buttons-steps {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.row-buttons-steps > button {
+  margin-left: 10px;
+}
+
+.stepper-content {
+  display: flex;
+  justify-content: center;
+}
+
+.stepper-content > form {
+  width: 500px;
+}
+
+.mat-hint {
+  font-size: 11px;
+}
+
+.card-options {
+  margin-bottom: 10px;
+  box-shadow: none;
+  border: 1px solid #e3dcdc;
+}
+

@@ -1,0 +1,23 @@
+.toolbar {
+  display: flex;
+  background-color: #1976d2;
+  color: white;
+}
+
+.toolbar img {
+  margin: 0 16px;
+}
+
+.toolbar #agaval-logo {
+  height: 40px;
+  margin: 0 8px;
+}
+
+.toolbar #agaval-logo:hover {
+  opacity: 0.8;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+

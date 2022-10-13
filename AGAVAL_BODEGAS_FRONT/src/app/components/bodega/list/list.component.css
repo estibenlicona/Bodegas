@@ -1,0 +1,94 @@
+
+
+tr.mat-header-row.cdk-header-row.ng-star-inserted {
+  background: rgb(243, 242, 242);
+}
+
+.success {
+  color: cornsilk;
+  background: seagreen;
+}
+
+.warn {
+  color: cornsilk;
+  background: crimson;
+}
+
+.tr-row:hover {
+  background: rgb(243, 242, 242);
+  cursor: pointer;
+}
+
+.mat-column-codigo {
+  border-right: 1px solid #e1e1e1;
+}
+
+.mat-column-nombre {
+  padding-left: 10px;
+}
+
+.mat-column-edit, .mat-column-b2c {
+  text-align: center;
+  border-left: 1px solid #e1e1e1;
+}
+
+
+.mat-column-activo {
+  padding-left: 5px;
+  width: 200px;
+  text-align: center;
+  border-left: 1px solid #e1e1e1;
+}
+
+.mat-column-nombre {
+  min-width: 250px;
+}
+
+.mat-column-direccion {
+  min-width: 250px;
+}
+
+.mat-column-nit {
+  min-width: 100px;
+}
+
+.mat-column-ciudad {
+  min-width: 150px;
+}
+
+.mat-column-correo {
+  min-width: 300px;
+}
+
+.mat-column-sector {
+  min-width: 100px;
+}
+
+.mat-column-representantelegal {
+  min-width: 250px;
+}
+
+.mat-column-nombreSucursal{
+  min-width: 250px;
+}
+
+.mat-column-inicioFacturacion {
+  min-width: 200px;
+}
+
+.mat-column-porcentjeComision {
+  text-align: center;
+}
+
+.mat-column-diaspago, .mat-column-recibeAbonos , .mat-column-indicadorReferencias {
+  text-align: center;
+}
+
+.paginator {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start !important;
+  padding: 0 8px;
+  flex-wrap: wrap-reverse;
+  width: 100%;
+}

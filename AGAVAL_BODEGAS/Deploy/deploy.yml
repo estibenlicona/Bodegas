@@ -1,0 +1,44 @@
+#Deploy Envio SMS
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: bodegas-api
+  name: bodegas-api
+  namespace: bodegas
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: bodegas-api
+  template:
+    metadata:
+      labels:
+        app: bodegas-api
+    spec:
+      volumes:
+      - name: tz-config
+        hostPath:
+          path: "/usr/share/zoneinfo/America/Bogota"
+      containers:
+      - name : bodegas-api
+        image: agaval.azurecr.io/agaval-bodegas-api:latest
+        imagePullPolicy: "Always"
+        envFrom:
+        - secretRef:
+            name: secrets
+        - configMapRef:
+            name: configmaps
+        volumeMounts:
+        - name: tz-config
+          mountPath: "/etc/localtime"
+        ports:
+        - containerPort: 80
+          protocol: TCP
+      imagePullSecrets:
+      - name: registrysecret                        
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxUnavailable: 1
+      maxSurge: 0

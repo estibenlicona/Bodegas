@@ -1,0 +1,36 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.mat-form-field {
+  width: 100%;
+  margin-bottom: -12px;
+}
+
+.flex-row {
+  display: flex;
+}
+
+.flex-row > .flex-item {
+  width: 100%;
+}
+
+.flex-row > .flex-item-shrink {
+  display: inline;
+  margin-left: 10px;
+}
+
+.flex-row > .flex-item-shrink > button {
+  margin-top: 4px;
+  height: 78%;
+}
+
+.suffix-input {
+  font-size: 20px;
+  font-weight: bold;
+}

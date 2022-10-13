@@ -1,0 +1,38 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: bodegas-front
+  name: bodegas-front
+  namespace: bodegas
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: bodegas-front
+  template:
+    metadata:
+      labels:
+        app: bodegas-front
+    spec:
+      volumes:
+      - name: tz-config
+        hostPath:
+          path: "/usr/share/zoneinfo/America/Bogota"
+      containers:
+      - name : bodegas-front
+        image: agaval.azurecr.io/agaval-bodegas-front:latest
+        imagePullPolicy: "Always"
+        volumeMounts:
+        - name: tz-config
+          mountPath: "/etc/localtime"
+        ports:
+        - containerPort: 80
+          protocol: TCP
+      imagePullSecrets:
+      - name: registrysecret
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxUnavailable: 1
+      maxSurge: 0

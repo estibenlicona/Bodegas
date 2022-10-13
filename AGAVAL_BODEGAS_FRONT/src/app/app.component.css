@@ -1,0 +1,26 @@
+.agaval-container {
+  background: #fff;
+  position: absolute;
+  top: 64px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+
+}
+
+.agaval-sidenav-content {
+  padding: 20px;
+}
+
+.agaval-sidenav {
+  width: 230px;
+  background: rgb(0 0 0 / 4%);
+}
+
+.agaval-item {
+  cursor: pointer;
+}
+
+.content-button-filters {
+  width: 100% !important;
+}

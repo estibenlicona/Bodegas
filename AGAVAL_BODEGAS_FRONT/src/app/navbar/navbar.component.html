@@ -1,0 +1,9 @@
+<mat-toolbar class="toolbar">
+  <button mat-icon-button>
+    <mat-icon (click)="inputDrawer.toggle()" >menu</mat-icon>
+  </button>
+  <img width="120" alt="Angular Logo" src="https://agaval.vtexassets.com/arquivos/Logo-Agaval.png"/>
+  <span class="spacer"></span>
+  <button mat-button *ngIf="!isUserLoggedIn" (click)="login()">Entrar <mat-icon>login</mat-icon></button>
+  <button mat-button *ngIf="isUserLoggedIn" (click)="logout()">Salir <mat-icon>logout</mat-icon></button>
+</mat-toolbar>
